@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏰 Feiras Medievais Portugal 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+        :root { --medieval-gold: #d4af77; }
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        .medieval-title { font-family: 'UnifrakturCook', cursive; text-shadow: 3px 3px 0 #000; }
+        .card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card:hover { transform: translateY(-4px) scale(1.03); box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.15); }
+        .modal { animation: modalPop 0.3s ease-out forwards; }
+        @keyframes modalPop { from { opacity: 0; transform: scale(0.95) translateY(30px); } to { opacity: 1; transform: scale(1) translateY(0); } }
+    </style>
+</head>
+<body class="bg-[#1a1208] text-amber-100">
+
+    <!-- HEADER -->
+    <header class="bg-[#2c1f12] border-b-4 border-[#d4af77] sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-4">
+                <div class="w-14 h-14 bg-[#d4af77] text-[#2c1f12] rounded-2xl flex items-center justify-center text-4xl shadow-inner">🏰</div>
+                <div>
+                    <h1 id="headerTitle" class="medieval-title text-4xl tracking-wider text-[#d4af77]">FEIRAS MEDIEVAIS</h1>
+                    <p id="headerSubtitle" class="text-amber-200 text-sm -mt-1">Portugal • 2026</p>
+                </div>
+            </div>
+
+            <!-- Idioma Selector -->
+            <div class="flex items-center gap-3 bg-[#1a1208] px-5 py-2 rounded-3xl border border-[#d4af77]/30">
+                <button onclick="changeLanguage('pt')" id="btnPT" 
+                        class="px-4 py-1.5 rounded-2xl font-medium text-sm transition">🇵🇹 Português</button>
+                <button onclick="changeLanguage('en')" id="btnEN" 
+                        class="px-4 py-1.5 rounded-2xl font-medium text-sm transition">🇬🇧 English</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <div class="bg-[radial-gradient(at_bottom_right,#3c2a1f_0%,#1a1208_70%)] py-16 border-b-4 border-[#d4af77]">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 id="heroTitle" class="medieval-title text-6xl md:text-7xl leading-none mb-4">Guia Completo das<br>Feiras Medievais em Portugal</h2>
+            <p id="heroSubtitle" class="max-w-2xl mx-auto text-amber-200 text-xl">Dados atualizados automaticamente todos os dias</p>
+        </div>
+    </div>
+
+    <!-- FILTROS -->
+    <div id="filtro" class="max-w-7xl mx-auto px-6 py-8 bg-[#2c1f12] sticky top-[89px] z-40 shadow-xl">
+        <div class="flex flex-col md:flex-row gap-6 items-end">
+            <div class="flex-1">
+                <label id="searchLabel" class="block text-xs uppercase tracking-widest mb-2 text-amber-300">🔎 Procurar</label>
+                <div class="relative">
+                    <input id="searchInput" type="text" placeholder="Ex: Óbidos, Viagem Medieval..." 
+                           onkeyup="if(event.keyCode===13) applyFilters()"
+                           class="w-full bg-[#1a1208] border border-[#d4af77]/30 focus:border-[#d4af77] rounded-3xl px-6 py-5 text-lg outline-none">
+                    <button onclick="applyFilters()" class="absolute right-3 top-1/2 -translate-y-1/2 bg-[#d4af77] text-[#2c1f12] px-8 py-3 rounded-3xl">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="w-full md:w-48">
+                <label id="monthLabel" class="block text-xs uppercase tracking-widest mb-2 text-amber-300">📅 Mês</label>
+                <select id="monthSelect" onchange="applyFilters()" class="w-full bg-[#1a1208] border border-[#d4af77]/30 focus:border-[#d4af77] rounded-3xl px-6 py-5 outline-none">
+                    <!-- Preenchido por JS -->
+                </select>
+            </div>
+            <div class="w-full md:w-56">
+                <label id="regionLabel" class="block text-xs uppercase tracking-widest mb-2 text-amber-300">🗺️ Região</label>
+                <select id="regionSelect" onchange="applyFilters()" class="w-full bg-[#1a1208] border border-[#d4af77]/30 focus:border-[#d4af77] rounded-3xl px-6 py-5 outline-none">
+                    <!-- Preenchido por JS -->
+                </select>
+            </div>
+            <button onclick="resetFilters()" id="clearBtn" 
+                    class="px-8 py-5 bg-transparent border border-[#d4af77]/50 hover:border-[#d4af77] rounded-3xl text-sm uppercase tracking-widest">LIMPAR</button>
+        </div>
+    </div>
+
+    <!-- STATS -->
+    <div class="max-w-7xl mx-auto px-6 py-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-[#2c1f12] rounded-3xl p-6 border border-[#d4af77]/20">
+            <div class="text-5xl font-bold text-[#d4af77]" id="totalEvents">0</div>
+            <div id="statsEvents" class="text-sm uppercase tracking-widest text-amber-200">Eventos</div>
+        </div>
+        <div class="bg-[#2c1f12] rounded-3xl p-6 border border-[#d4af77]/20">
+            <div class="text-5xl font-bold text-[#d4af77]" id="upcoming">0</div>
+            <div id="statsUpcoming" class="text-sm uppercase tracking-widest text-amber-200">Próximos</div>
+        </div>
+    </div>
+
+    <!-- LISTA -->
+    <div id="lista" class="max-w-7xl mx-auto px-6 pb-20">
+        <div class="flex justify-between items-baseline mb-8">
+            <h3 id="listTitle" class="text-3xl medieval-title">Feiras Medievais</h3>
+            <div id="countBadge" class="bg-[#d4af77] text-[#2c1f12] px-5 py-1 rounded-3xl text-sm font-medium">0 resultados</div>
+        </div>
+        <div id="eventsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    </div>
+
+    <!-- MODAL -->
+    <div id="infoModal" onclick="if(event.target.id==='infoModal') closeModal()" class="hidden fixed inset-0 bg-black/80 flex items-center justify-center z-[9999] p-4">
+        <div onclick="event.stopImmediatePropagation()" class="modal bg-[#2c1f12] border-4 border-[#d4af77] rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-hidden flex flex-col">
+            <div class="bg-gradient-to-r from-[#d4af77] to-amber-600 px-8 py-5 flex justify-between items-center text-[#2c1f12]">
+                <h3 id="modalTitle" class="text-3xl font-medium"></h3>
+                <button onclick="closeModal()" class="text-4xl leading-none hover:scale-110">×</button>
+            </div>
+            <div class="p-8 space-y-8 overflow-y-auto flex-1">
+                <div class="grid grid-cols-2 gap-8">
+                    <div><span id="modalDatesLabel" class="uppercase text-xs text-amber-300">📅 Datas</span><p id="modalDates" class="text-2xl font-semibold"></p></div>
+                    <div><span id="modalLocationLabel" class="uppercase text-xs text-amber-300">📍 Local</span><p id="modalLocation" class="text-xl"></p></div>
+                </div>
+                <div><span id="modalRegionLabel" class="uppercase text-xs text-amber-300">🗺️ Região</span><p id="modalRegion" class="inline-flex px-6 py-2 bg-[#1a1208] rounded-3xl text-lg"></p></div>
+                <div><span id="modalDescLabel" class="uppercase text-xs text-amber-300">📜 Descrição</span><p id="modalDesc" class="text-amber-200 leading-relaxed text-lg"></p></div>
+                <div id="modalLinkContainer" class="hidden">
+                    <a id="modalLink" href="#" target="_blank" class="flex items-center justify-center gap-3 bg-[#d4af77] hover:bg-amber-300 text-[#2c1f12] font-medium py-5 rounded-3xl text-lg">
+                        <i class="fas fa-external-link-alt"></i> <span id="modalLinkText">Ver site oficial</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ==================== CONFIGURAÇÃO ====================
+        const JSON_URL = "https://KnightlyQuest.github.io/feiras-medievais-portugal-2026/data/events-2026.json"; 
+
+        let eventsData = [];
+        let currentLang = 'pt';
+
+        const translations = {
+            pt: {
+                headerTitle: "FEIRAS MEDIEVAIS",
+                headerSubtitle: "Portugal • 2026",
+                heroTitle: "Guia Completo das<br>Feiras Medievais em Portugal",
+                heroSubtitle: "Dados atualizados automaticamente todos os dias",
+                searchLabel: "🔎 Procurar",
+                monthLabel: "📅 Mês",
+                regionLabel: "🗺️ Região",
+                clearBtn: "LIMPAR",
+                listTitle: "Feiras Medievais",
+                statsEvents: "Eventos",
+                statsUpcoming: "Próximos",
+                modalDatesLabel: "📅 Datas",
+                modalLocationLabel: "📍 Local",
+                modalRegionLabel: "🗺️ Região",
+                modalDescLabel: "📜 Descrição",
+                modalLinkText: "Ver site oficial"
+            },
+            en: {
+                headerTitle: "MEDIEVAL FAIRS",
+                headerSubtitle: "Portugal • 2026",
+                heroTitle: "Complete Guide to<br>Medieval Fairs in Portugal",
+                heroSubtitle: "Data updated automatically every day",
+                searchLabel: "🔎 Search",
+                monthLabel: "📅 Month",
+                regionLabel: "🗺️ Region",
+                clearBtn: "CLEAR",
+                listTitle: "Medieval Fairs",
+                statsEvents: "Events",
+                statsUpcoming: "Upcoming",
+                modalDatesLabel: "📅 Dates",
+                modalLocationLabel: "📍 Location",
+                modalRegionLabel: "🗺️ Region",
+                modalDescLabel: "📜 Description",
+                modalLinkText: "Official website"
+            }
+        };
+
+        async function loadEvents() {
+            try {
+                // Atualiza automaticamente 1x por dia (cache-buster com data atual)
+                const today = new Date().toISOString().split('T')[0];
+                const res = await fetch(`${JSON_URL}?t=${today}`);
+                if (!res.ok) throw new Error();
+                eventsData = await res.json();
+                console.log('%c✅ Dados carregados automaticamente (atualização diária)', 'color:#d4af77');
+            } catch (e) {
+                console.error('Erro ao carregar JSON:', e);
+            }
+            renderEvents(eventsData);
+            updateStats();
+        }
+
+        function changeLanguage(lang) {
+            currentLang = lang;
+            document.getElementById('btnPT').classList.toggle('bg-[#d4af77]', lang === 'pt');
+            document.getElementById('btnPT').classList.toggle('text-[#2c1f12]', lang === 'pt');
+            document.getElementById('btnEN').classList.toggle('bg-[#d4af77]', lang === 'en');
+            document.getElementById('btnEN').classList.toggle('text-[#2c1f12]', lang === 'en');
+
+            const t = translations[lang];
+
+            document.getElementById('headerTitle').textContent = t.headerTitle;
+            document.getElementById('headerSubtitle').textContent = t.headerSubtitle;
+            document.getElementById('heroTitle').innerHTML = t.heroTitle;
+            document.getElementById('heroSubtitle').textContent = t.heroSubtitle;
+            document.getElementById('searchLabel').textContent = t.searchLabel;
+            document.getElementById('monthLabel').textContent = t.monthLabel;
+            document.getElementById('regionLabel').textContent = t.regionLabel;
+            document.getElementById('clearBtn').textContent = t.clearBtn;
+            document.getElementById('listTitle').textContent = t.listTitle;
+            document.getElementById('statsEvents').textContent = t.statsEvents;
+            document.getElementById('statsUpcoming').textContent = t.statsUpcoming;
+            document.getElementById('modalDatesLabel').textContent = t.modalDatesLabel;
+            document.getElementById('modalLocationLabel').textContent = t.modalLocationLabel;
+            document.getElementById('modalRegionLabel').textContent = t.modalRegionLabel;
+            document.getElementById('modalDescLabel').textContent = t.modalDescLabel;
+            document.getElementById('modalLinkText').textContent = t.modalLinkText;
+
+            // Re-render para atualizar textos nos cards (se necessário)
+            renderEvents(eventsData);
+        }
+
+        function showMoreInfo(event) {
+            // ... (mesma função anterior, adaptada para idioma se quiseres traduzir desc, mas mantemos em PT por agora)
+            document.getElementById('modalTitle').textContent = event.name;
+            document.getElementById('modalDates').textContent = event.dates;
+            document.getElementById('modalLocation').textContent = event.location;
+            document.getElementById('modalRegion').innerHTML = `<span class="px-4 py-1 bg-[#d4af77] text-[#2c1f12] rounded-3xl">${event.region}</span>`;
+            document.getElementById('modalDesc').textContent = event.desc;
+
+            const linkContainer = document.getElementById('modalLinkContainer');
+            if (event.link && event.link.trim() !== '') {
+                document.getElementById('modalLink').href = event.link;
+                linkContainer.classList.remove('hidden');
+            } else {
+                linkContainer.classList.add('hidden');
+            }
+
+            document.getElementById('infoModal').classList.remove('hidden');
+            document.getElementById('infoModal').classList.add('flex');
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('infoModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        // renderEvents, applyFilters, resetFilters, updateStats, exportToCSV mantêm-se iguais à versão anterior
+        // (copiei-as abaixo para ficar completo)
+
+        function renderEvents(filteredEvents) {
+            const grid = document.getElementById('eventsGrid');
+            grid.innerHTML = '';
+
+            if (filteredEvents.length === 0) {
+                grid.innerHTML = `<div class="col-span-3 text-center py-20 text-amber-200"><p class="text-2xl">${currentLang === 'pt' ? 'Nenhuma feira encontrada' : 'No fairs found'}</p></div>`;
+                document.getElementById('countBadge').textContent = `0 ${currentLang === 'pt' ? 'resultados' : 'results'}`;
+                return;
+            }
+
+            filteredEvents.forEach(event => {
+                const card = document.createElement('div');
+                card.className = 'card bg-[#2c1f12] rounded-3xl overflow-hidden border border-[#d4af77]/30';
+                card.innerHTML = `
+                    <div class="h-2 bg-gradient-to-r from-[#d4af77] to-amber-600"></div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start">
+                            <h4 class="text-2xl font-medium text-[#d4af77]">${event.name}</h4>
+                            <span class="px-4 py-1 text-xs rounded-3xl bg-[#1a1208] border border-[#d4af77]/30">${event.month}</span>
+                        </div>
+                        <p class="mt-3 text-amber-100 font-medium">${event.dates}</p>
+                        <p class="text-amber-300 text-sm mt-1">${event.location}</p>
+                        <p class="mt-4 text-sm leading-snug text-amber-200 line-clamp-3">${event.desc}</p>
+                        <div class="mt-6 flex justify-end">
+                            <button onclick='showMoreInfo(${JSON.stringify(event)})' 
+                                    class="px-6 py-3 bg-[#d4af77] hover:bg-amber-300 text-[#2c1f12] rounded-3xl text-sm font-medium flex items-center gap-2">
+                                <i class="fas fa-info-circle"></i> ${currentLang === 'pt' ? 'MAIS INFO' : 'MORE INFO'}
+                            </button>
+                        </div>
+                    </div>`;
+                grid.appendChild(card);
+            });
+
+            document.getElementById('countBadge').textContent = `${filteredEvents.length} ${currentLang === 'pt' ? 'resultados' : 'results'}`;
+        }
+
+        function applyFilters() {
+            const search = document.getElementById('searchInput').value.toLowerCase().trim();
+            const month = document.getElementById('monthSelect').value;
+            const region = document.getElementById('regionSelect').value;
+
+            const filtered = eventsData.filter(e => {
+                const matchSearch = !search || 
+                    e.name.toLowerCase().includes(search) ||
+                    e.location.toLowerCase().includes(search) ||
+                    e.desc.toLowerCase().includes(search);
+                const matchMonth = !month || e.month === month;
+                const matchRegion = !region || e.region === region;
+                return matchSearch && matchMonth && matchRegion;
+            });
+
+            renderEvents(filtered);
+        }
+
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('monthSelect').value = '';
+            document.getElementById('regionSelect').value = '';
+            renderEvents(eventsData);
+        }
+
+        function updateStats() {
+            document.getElementById('totalEvents').textContent = eventsData.length;
+            const upcoming = eventsData.filter(e => {
+                const months = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro"];
+                return months.indexOf(e.month) >= 3;
+            }).length;
+            document.getElementById('upcoming').textContent = upcoming;
+        }
+
+        function exportToCSV() {
+            let csv = currentLang === 'pt' 
+                ? "Nome;Datas;Local;Região;Descrição;Link\n" 
+                : "Name;Dates;Location;Region;Description;Link\n";
+            eventsData.forEach(e => {
+                csv += `"${e.name}";"${e.dates}";"${e.location}";"${e.region}";"${e.desc}";"${e.link || ''}"\n`;
+            });
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = currentLang === 'pt' ? "feiras_medievais_2026.csv" : "medieval_fairs_2026.csv";
+            link.click();
+        }
+
+        // Inicializar
+        window.onload = () => {
+            loadEvents();
+            changeLanguage('pt'); // começa em português
+        };
+    </script>
+</body>
+</html>
