@@ -8,49 +8,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
-        
         :root { --medieval-gold: #d4af77; }
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        .medieval-title { font-family: 'UnifrakturCook', cursive; text-shadow: 3px 3px 0 #000; }
+        .card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card:hover { transform: translateY(-4px) scale(1.03); }
+        .modal { animation: modalPop 0.3s ease-out forwards; }
+        @keyframes modalPop { from { opacity: 0; transform: scale(0.95) translateY(30px); } to { opacity: 1; transform: scale(1) translateY(0); } }
         
-        body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            padding-bottom: env(safe-area-inset-bottom);
+        .past-event {
+            opacity: 0.65;
+            filter: grayscale(30%);
         }
-        
-        .medieval-title { 
-            font-family: 'UnifrakturCook', cursive; 
-            text-shadow: 3px 3px 0 #000; 
-        }
-        
-        .card {
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .card:hover {
-            transform: translateY(-4px) scale(1.03);
-        }
-        
-        .modal {
-            animation: modalPop 0.3s ease-out forwards;
-        }
-        @keyframes modalPop {
-            from { opacity: 0; transform: scale(0.95) translateY(30px); }
-            to { opacity: 1; transform: scale(1) translateY(0); }
-        }
-
-        /* Filtros não ficam sticky no mobile */
-        #filters {
-            position: relative;
-            z-index: 10;
-        }
-
-        /* Melhoria de toque no mobile */
-        button, select, input {
-            touch-action: manipulation;
+        .past-badge {
+            background-color: #4b5563;
+            color: #d1d5db;
         }
     </style>
 </head>
 <body class="bg-[#1a1208] text-amber-100 min-h-screen">
 
-    <!-- HEADER (mantém sticky) -->
+    <!-- HEADER -->
     <header class="bg-[#2c1f12] border-b-4 border-[#d4af77] sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
             <div class="flex items-center gap-4">
@@ -62,10 +40,8 @@
             </div>
 
             <div class="flex items-center gap-2 bg-[#1a1208] px-3 py-1.5 rounded-3xl border border-[#d4af77]/30">
-                <button onclick="changeLanguage('pt')" id="btnPT" 
-                        class="px-5 py-2 rounded-2xl font-medium text-sm flex items-center gap-2 bg-[#d4af77] text-[#2c1f12]">🇵🇹 Português</button>
-                <button onclick="changeLanguage('en')" id="btnEN" 
-                        class="px-5 py-2 rounded-2xl font-medium text-sm flex items-center gap-2">🇬🇧 English</button>
+                <button onclick="changeLanguage('pt')" id="btnPT" class="px-5 py-2 rounded-2xl font-medium text-sm flex items-center gap-2 bg-[#d4af77] text-[#2c1f12]">🇵🇹 Português</button>
+                <button onclick="changeLanguage('en')" id="btnEN" class="px-5 py-2 rounded-2xl font-medium text-sm flex items-center gap-2">🇬🇧 English</button>
             </div>
         </div>
     </header>
@@ -77,7 +53,7 @@
         </div>
     </div>
 
-    <!-- FILTROS (agora rola com o conteúdo) -->
+    <!-- FILTROS -->
     <div id="filters" class="max-w-7xl mx-auto px-6 py-6 bg-[#2c1f12]">
         <div class="flex flex-col md:flex-row gap-4 items-end">
             <div class="flex-1">
@@ -94,27 +70,24 @@
 
             <div class="w-full md:w-52">
                 <label id="monthLabel" class="block text-xs uppercase tracking-widest mb-2 text-amber-300">📅 Mês</label>
-                <select id="monthSelect" onchange="applyFilters()" 
-                        class="w-full bg-[#1a1208] border border-[#d4af77]/40 focus:border-[#d4af77] rounded-3xl px-6 py-4 outline-none">
+                <select id="monthSelect" onchange="applyFilters()" class="w-full bg-[#1a1208] border border-[#d4af77]/40 focus:border-[#d4af77] rounded-3xl px-6 py-4 outline-none">
                     <option value="">Todos os meses</option>
                 </select>
             </div>
 
             <div class="w-full md:w-56">
                 <label id="regionLabel" class="block text-xs uppercase tracking-widest mb-2 text-amber-300">🗺️ Região</label>
-                <select id="regionSelect" onchange="applyFilters()" 
-                        class="w-full bg-[#1a1208] border border-[#d4af77]/40 focus:border-[#d4af77] rounded-3xl px-6 py-4 outline-none">
+                <select id="regionSelect" onchange="applyFilters()" class="w-full bg-[#1a1208] border border-[#d4af77]/40 focus:border-[#d4af77] rounded-3xl px-6 py-4 outline-none">
                     <option value="">Todas as regiões</option>
                 </select>
             </div>
 
-            <button onclick="resetFilters()" id="clearBtn" 
-                    class="px-8 py-4 bg-transparent border border-[#d4af77]/50 hover:border-[#d4af77] rounded-3xl text-sm uppercase tracking-widest whitespace-nowrap">LIMPAR</button>
+            <button onclick="resetFilters()" id="clearBtn" class="px-8 py-4 bg-transparent border border-[#d4af77]/50 hover:border-[#d4af77] rounded-3xl text-sm uppercase tracking-widest">LIMPAR</button>
         </div>
     </div>
 
-    <!-- LISTA DE EVENTOS -->
-    <div class="max-w-7xl mx-auto px-6 pb-12 mobile-safe">
+    <!-- LISTA -->
+    <div class="max-w-7xl mx-auto px-6 pb-12">
         <div class="flex justify-between items-center mb-8">
             <h3 id="listTitle" class="text-3xl medieval-title">Feiras Medievais</h3>
             <div id="countBadge" class="bg-[#d4af77] text-[#2c1f12] px-6 py-2 rounded-3xl text-sm font-medium">0 resultados</div>
@@ -123,7 +96,7 @@
         <div id="eventsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
     </div>
 
-    <!-- MODAL MAIS INFO -->
+    <!-- MODAL -->
     <div id="infoModal" class="hidden fixed inset-0 bg-black/80 flex items-center justify-center z-[9999] p-4">
         <div class="modal bg-[#2c1f12] border-4 border-[#d4af77] rounded-3xl max-w-lg w-full overflow-hidden">
             <div class="bg-gradient-to-r from-[#d4af77] to-amber-600 px-6 py-4 flex justify-between items-center text-[#2c1f12]">
@@ -199,6 +172,13 @@
             }
         };
 
+        function isPastEvent(datesStr) {
+            const today = new Date();
+            const year = today.getFullYear();
+            // Simple check for 2026 events - improve later if needed
+            return datesStr.includes("2025") || (datesStr.includes("2026") && false); // placeholder
+        }
+
         async function loadEvents() {
             try {
                 const res = await fetch(JSON_URL + '?t=' + new Date().toISOString().split('T')[0]);
@@ -235,7 +215,6 @@
         function changeLanguage(lang) {
             currentLang = lang;
             const t = translations[lang];
-
             document.getElementById('btnPT').classList.toggle('bg-[#d4af77]', lang === 'pt');
             document.getElementById('btnPT').classList.toggle('text-[#2c1f12]', lang === 'pt');
             document.getElementById('btnEN').classList.toggle('bg-[#d4af77]', lang === 'en');
@@ -258,7 +237,7 @@
             document.getElementById('modalDates').textContent = event.dates;
             document.getElementById('modalLocation').textContent = event.location;
             document.getElementById('modalRegion').innerHTML = `<span class="px-4 py-1 bg-[#d4af77] text-[#2c1f12] rounded-3xl">${event.region}</span>`;
-            document.getElementById('modalDesc').textContent = event.desc;
+            document.getElementById('modalDesc').textContent = event.desc || "Sem descrição disponível.";
 
             const official = document.getElementById('modalOfficialLink');
             if (event.link && event.link.trim() !== '') {
@@ -269,7 +248,7 @@
             }
 
             const maps = document.getElementById('modalMapsLink');
-            maps.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.location)}`;
+            maps.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.maps_query || event.location)}`;
 
             document.getElementById('infoModal').classList.remove('hidden');
             document.getElementById('infoModal').classList.add('flex');
@@ -292,21 +271,22 @@
             }
 
             filtered.forEach(event => {
-                const html = `
-                    <div class="card bg-[#2c1f12] border border-[#d4af77]/30 rounded-3xl p-6">
+                const isPast = isPastEvent(event.dates);
+                const cardHTML = `
+                    <div class="card bg-[#2c1f12] border border-[#d4af77]/30 rounded-3xl p-6 ${isPast ? 'past-event' : ''}">
                         <div class="flex justify-between items-start">
-                            <h4 class="text-xl font-medium text-[#d4af77]">${event.name}</h4>
-                            <span class="text-xs px-3 py-1 bg-[#1a1208] rounded-full border border-[#d4af77]/30">${event.month}</span>
+                            <h4 class="text-xl font-medium ${isPast ? 'text-gray-400' : 'text-[#d4af77]'}">${event.name}</h4>
+                            ${isPast ? '<span class="past-badge text-xs px-3 py-1 rounded-full">Já aconteceu</span>' : `<span class="text-xs px-3 py-1 bg-[#1a1208] rounded-full border border-[#d4af77]/30">${event.month}</span>`}
                         </div>
-                        <p class="mt-3 text-amber-100">${event.dates}</p>
+                        <p class="mt-3 ${isPast ? 'text-gray-400' : 'text-amber-100'}">${event.dates}</p>
                         <p class="text-amber-300 text-sm mt-1">${event.location}</p>
-                        <p class="mt-4 text-sm text-amber-200 line-clamp-3">${event.desc}</p>
+                        <p class="mt-4 text-sm text-amber-200 line-clamp-3">${event.desc || ''}</p>
                         <button onclick='showMoreInfo(${JSON.stringify(event)})' 
-                                class="mt-6 w-full bg-[#d4af77] hover:bg-amber-300 text-[#2c1f12] py-3 rounded-3xl font-medium flex items-center justify-center gap-2">
+                                class="mt-6 w-full ${isPast ? 'bg-gray-600' : 'bg-[#d4af77] hover:bg-amber-300'} text-[#2c1f12] py-3 rounded-3xl font-medium flex items-center justify-center gap-2">
                             <i class="fas fa-info-circle"></i> ${currentLang === 'pt' ? 'MAIS INFO' : 'MORE INFO'}
                         </button>
                     </div>`;
-                grid.innerHTML += html;
+                grid.innerHTML += cardHTML;
             });
 
             document.getElementById('countBadge').textContent = `${filtered.length} resultados`;
@@ -321,7 +301,7 @@
                 const matchSearch = !search || 
                     e.name.toLowerCase().includes(search) || 
                     e.location.toLowerCase().includes(search) ||
-                    e.desc.toLowerCase().includes(search);
+                    (e.desc && e.desc.toLowerCase().includes(search));
                 const matchMonth = !month || e.month === month;
                 const matchRegion = !region || e.region === region;
                 return matchSearch && matchMonth && matchRegion;
@@ -337,7 +317,7 @@
             renderEvents(eventsData);
         }
 
-        // Inicializar
+        // Initialize
         window.onload = () => {
             loadEvents();
             changeLanguage('pt');
