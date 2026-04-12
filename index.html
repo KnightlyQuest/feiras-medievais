@@ -12,18 +12,8 @@
         body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
         .medieval-title { font-family: 'UnifrakturCook', cursive; text-shadow: 3px 3px 0 #000; }
         .card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
-        .card:hover { transform: translateY(-4px) scale(1.03); }
-        .modal { animation: modalPop 0.3s ease-out forwards; }
-        @keyframes modalPop { from { opacity: 0; transform: scale(0.95) translateY(30px); } to { opacity: 1; transform: scale(1) translateY(0); } }
-        
-        .past-event {
-            opacity: 0.65;
-            filter: grayscale(30%);
-        }
-        .past-badge {
-            background-color: #4b5563;
-            color: #d1d5db;
-        }
+        .past-event { opacity: 0.65; filter: grayscale(30%); }
+        .past-badge { background-color: #4b5563; color: #d1d5db; }
     </style>
 </head>
 <body class="bg-[#1a1208] text-amber-100 min-h-screen">
@@ -40,8 +30,10 @@
             </div>
 
             <div class="flex items-center gap-2 bg-[#1a1208] px-3 py-1.5 rounded-3xl border border-[#d4af77]/30">
-                <button onclick="changeLanguage('pt')" id="btnPT" class="px-5 py-2 rounded-2xl font-medium text-sm flex items-center gap-2 bg-[#d4af77] text-[#2c1f12]">🇵🇹 Português</button>
-                <button onclick="changeLanguage('en')" id="btnEN" class="px-5 py-2 rounded-2xl font-medium text-sm flex items-center gap-2">🇬🇧 English</button>
+                <button onclick="changeLanguage('pt')" id="btnPT" 
+                        class="px-5 py-2 rounded-2xl font-medium text-sm flex items-center gap-2 bg-[#d4af77] text-[#2c1f12]">🇵🇹 Português</button>
+                <button onclick="changeLanguage('en')" id="btnEN" 
+                        class="px-5 py-2 rounded-2xl font-medium text-sm flex items-center gap-2">🇬🇧 English</button>
             </div>
         </div>
     </header>
@@ -82,7 +74,8 @@
                 </select>
             </div>
 
-            <button onclick="resetFilters()" id="clearBtn" class="px-8 py-4 bg-transparent border border-[#d4af77]/50 hover:border-[#d4af77] rounded-3xl text-sm uppercase tracking-widest">LIMPAR</button>
+            <button onclick="resetFilters()" id="clearBtn" 
+                    class="px-8 py-4 bg-transparent border border-[#d4af77]/50 hover:border-[#d4af77] rounded-3xl text-sm uppercase tracking-widest">LIMPAR</button>
         </div>
     </div>
 
@@ -92,7 +85,6 @@
             <h3 id="listTitle" class="text-3xl medieval-title">Feiras Medievais</h3>
             <div id="countBadge" class="bg-[#d4af77] text-[#2c1f12] px-6 py-2 rounded-3xl text-sm font-medium">0 resultados</div>
         </div>
-
         <div id="eventsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
     </div>
 
@@ -139,50 +131,32 @@
         let eventsData = [];
         let currentLang = 'pt';
 
-        const translations = {
-            pt: {
-                headerTitle: "FEIRAS MEDIEVAIS",
-                headerSubtitle: "Portugal • 2026",
-                heroTitle: "Feiras Medievais em Portugal",
-                searchLabel: "🔎 Procurar",
-                monthLabel: "📅 Mês",
-                regionLabel: "🗺️ Região",
-                clearBtn: "LIMPAR",
-                listTitle: "Feiras Medievais",
-                modalDatesLabel: "Datas",
-                modalLocationLabel: "Local",
-                modalRegionLabel: "Região",
-                modalDescLabel: "Descrição",
-                moreInfo: "MAIS INFO"
-            },
-            en: {
-                headerTitle: "MEDIEVAL FAIRS",
-                headerSubtitle: "Portugal • 2026",
-                heroTitle: "Medieval Fairs in Portugal",
-                searchLabel: "🔎 Search",
-                monthLabel: "📅 Month",
-                regionLabel: "🗺️ Region",
-                clearBtn: "CLEAR",
-                listTitle: "Medieval Fairs",
-                modalDatesLabel: "Dates",
-                modalLocationLabel: "Location",
-                modalRegionLabel: "Region",
-                modalDescLabel: "Description",
-                moreInfo: "MORE INFO"
-            }
+        const monthMap = {
+            "janeiro": 1, "fevereiro": 2, "março": 3, "abril": 4, "maio": 5, "junho": 6,
+            "julho": 7, "agosto": 8, "setembro": 9, "outubro": 10, "novembro": 11, "dezembro": 12
         };
 
+        function parseEventDate(datesStr) {
+            const match = datesStr.match(/(\d{1,2})\s*(?:e|de)?\s*(\d{1,2})?\s*de\s*([a-zç]+)\s*(\d{4})/i);
+            if (!match) return new Date(2099, 0, 1);
+            const day = parseInt(match[1]);
+            const monthName = match[3].toLowerCase();
+            const year = parseInt(match[4]);
+            const month = monthMap[monthName] || 1;
+            return new Date(year, month - 1, day);
+        }
+
         function isPastEvent(datesStr) {
-            const today = new Date();
-            const year = today.getFullYear();
-            // Simple check for 2026 events - improve later if needed
-            return datesStr.includes("2025") || (datesStr.includes("2026") && false); // placeholder
+            const eventDate = parseEventDate(datesStr);
+            return eventDate < new Date();
         }
 
         async function loadEvents() {
             try {
-                const res = await fetch(JSON_URL + '?t=' + new Date().toISOString().split('T')[0]);
+                const res = await fetch(JSON_URL + '?t=' + Date.now());
                 eventsData = await res.json();
+                // Sort chronologically
+                eventsData.sort((a, b) => parseEventDate(a.dates) - parseEventDate(b.dates));
             } catch (e) {
                 console.error("Erro ao carregar JSON", e);
             }
@@ -191,30 +165,35 @@
         }
 
         function populateFilters() {
-            const months = [...new Set(eventsData.map(e => e.month))].sort();
+            const monthOrder = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", 
+                                "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro", "2026"];
+        
+            const uniqueMonths = [...new Set(eventsData.map(e => e.month))];
+            
+            // Sort months according to natural calendar order
+            uniqueMonths.sort((a, b) => {
+                const indexA = monthOrder.indexOf(a);
+                const indexB = monthOrder.indexOf(b);
+                if (indexA === -1) return 1;
+                if (indexB === -1) return -1;
+                return indexA - indexB;
+            });
+        
             const monthSelect = document.getElementById('monthSelect');
             monthSelect.innerHTML = '<option value="">Todos os meses</option>';
-            months.forEach(m => {
+            
+            uniqueMonths.forEach(m => {
                 const opt = document.createElement('option');
                 opt.value = m;
                 opt.textContent = m;
                 monthSelect.appendChild(opt);
             });
-
-            const regions = [...new Set(eventsData.map(e => e.region))].sort();
-            const regionSelect = document.getElementById('regionSelect');
-            regionSelect.innerHTML = '<option value="">Todas as regiões</option>';
-            regions.forEach(r => {
-                const opt = document.createElement('option');
-                opt.value = r;
-                opt.textContent = r;
-                regionSelect.appendChild(opt);
-            });
         }
 
         function changeLanguage(lang) {
             currentLang = lang;
-            const t = translations[lang];
+            const t = translations[lang] || translations.pt;
+
             document.getElementById('btnPT').classList.toggle('bg-[#d4af77]', lang === 'pt');
             document.getElementById('btnPT').classList.toggle('text-[#2c1f12]', lang === 'pt');
             document.getElementById('btnEN').classList.toggle('bg-[#d4af77]', lang === 'en');
@@ -232,6 +211,17 @@
             renderEvents(eventsData);
         }
 
+        const translations = {
+            pt: { headerTitle: "FEIRAS MEDIEVAIS", headerSubtitle: "Portugal • 2026", heroTitle: "Feiras Medievais em Portugal",
+                  searchLabel: "🔎 Procurar", monthLabel: "📅 Mês", regionLabel: "🗺️ Região", clearBtn: "LIMPAR",
+                  listTitle: "Feiras Medievais", modalDatesLabel: "Datas", modalLocationLabel: "Local",
+                  modalRegionLabel: "Região", modalDescLabel: "Descrição", moreInfo: "MAIS INFO" },
+            en: { headerTitle: "MEDIEVAL FAIRS", headerSubtitle: "Portugal • 2026", heroTitle: "Medieval Fairs in Portugal",
+                  searchLabel: "🔎 Search", monthLabel: "📅 Month", regionLabel: "🗺️ Region", clearBtn: "CLEAR",
+                  listTitle: "Medieval Fairs", modalDatesLabel: "Dates", modalLocationLabel: "Location",
+                  modalRegionLabel: "Region", modalDescLabel: "Description", moreInfo: "MORE INFO" }
+        };
+
         function showMoreInfo(event) {
             document.getElementById('modalTitle').textContent = event.name;
             document.getElementById('modalDates').textContent = event.dates;
@@ -240,12 +230,8 @@
             document.getElementById('modalDesc').textContent = event.desc || "Sem descrição disponível.";
 
             const official = document.getElementById('modalOfficialLink');
-            if (event.link && event.link.trim() !== '') {
-                official.href = event.link;
-                official.style.display = 'flex';
-            } else {
-                official.style.display = 'none';
-            }
+            official.href = event.link || "#";
+            official.style.display = event.link ? 'flex' : 'none';
 
             const maps = document.getElementById('modalMapsLink');
             maps.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.maps_query || event.location)}`;
@@ -264,26 +250,22 @@
             const grid = document.getElementById('eventsGrid');
             grid.innerHTML = '';
 
-            if (filtered.length === 0) {
-                grid.innerHTML = `<div class="col-span-3 text-center py-12 text-amber-200">Nenhuma feira encontrada</div>`;
-                document.getElementById('countBadge').textContent = `0 resultados`;
-                return;
-            }
-
             filtered.forEach(event => {
                 const isPast = isPastEvent(event.dates);
                 const cardHTML = `
                     <div class="card bg-[#2c1f12] border border-[#d4af77]/30 rounded-3xl p-6 ${isPast ? 'past-event' : ''}">
                         <div class="flex justify-between items-start">
                             <h4 class="text-xl font-medium ${isPast ? 'text-gray-400' : 'text-[#d4af77]'}">${event.name}</h4>
-                            ${isPast ? '<span class="past-badge text-xs px-3 py-1 rounded-full">Já aconteceu</span>' : `<span class="text-xs px-3 py-1 bg-[#1a1208] rounded-full border border-[#d4af77]/30">${event.month}</span>`}
+                            ${isPast 
+                                ? `<span class="past-badge text-xs px-3 py-1 rounded-full">Já aconteceu</span>` 
+                                : `<span class="text-xs px-3 py-1 bg-[#1a1208] rounded-full border border-[#d4af77]/30">${event.month}</span>`}
                         </div>
                         <p class="mt-3 ${isPast ? 'text-gray-400' : 'text-amber-100'}">${event.dates}</p>
                         <p class="text-amber-300 text-sm mt-1">${event.location}</p>
                         <p class="mt-4 text-sm text-amber-200 line-clamp-3">${event.desc || ''}</p>
                         <button onclick='showMoreInfo(${JSON.stringify(event)})' 
                                 class="mt-6 w-full ${isPast ? 'bg-gray-600' : 'bg-[#d4af77] hover:bg-amber-300'} text-[#2c1f12] py-3 rounded-3xl font-medium flex items-center justify-center gap-2">
-                            <i class="fas fa-info-circle"></i> ${currentLang === 'pt' ? 'MAIS INFO' : 'MORE INFO'}
+                            <i class="fas fa-info-circle"></i> MAIS INFO
                         </button>
                     </div>`;
                 grid.innerHTML += cardHTML;
@@ -317,7 +299,6 @@
             renderEvents(eventsData);
         }
 
-        // Initialize
         window.onload = () => {
             loadEvents();
             changeLanguage('pt');
