@@ -1,0 +1,37 @@
+name: Update Medieval Fairs JSON
+
+on:
+  schedule:
+    - cron: '0 6 */3 * *'      # Every 3 days at 06:00 UTC
+  workflow_dispatch:           # Allows manual run
+
+jobs:
+  scrape-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+
+      - name: Set up Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests==2.33.1 beautifulsoup4==4.14.3 lxml==6.0.3
+
+      - name: Run scraper
+        run: python scripts/update_events.py
+
+      - name: Commit & push if changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/events-2026.json
+          if git diff --staged --quiet; then
+            echo "No new events to commit"
+          else
+            git commit -m "🤖 Auto-update: New medieval fairs scraped ($(date +'%Y-%m-%d'))"
+            git push
+          fi
