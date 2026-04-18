@@ -136,14 +136,73 @@
             "julho": 7, "agosto": 8, "setembro": 9, "outubro": 10, "novembro": 11, "dezembro": 12
         };
 
+        const monthMapEn = {
+            "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
+            "july": 7, "august": 8, "september": 9, "october": 10, "november": 11, "december": 12
+        };
+
+        function parseMonthNameToNumber(name) {
+            if (!name) return null;
+            const lower = name.toLowerCase().trim();
+            return monthMap[lower] || monthMap[lower.replace('ç', 'c')] || monthMapEn[lower] || null;
+        }
+
         function parseEventDate(datesStr) {
-            const match = datesStr.match(/(\d{1,2})\s*(?:e|de)?\s*(\d{1,2})?\s*de\s*([a-zç]+)\s*(\d{4})/i);
-            if (!match) return new Date(2099, 0, 1);
-            const day = parseInt(match[1]);
-            const monthName = match[3].toLowerCase();
-            const year = parseInt(match[4]);
-            const month = monthMap[monthName] || 1;
-            return new Date(year, month - 1, day);
+            if (!datesStr || typeof datesStr !== 'string') return new Date(2099, 0, 1);
+            const s = datesStr.trim();
+
+            // ISO date support: 2026-05-08 or 2026-05-08 -> 2026-05-10
+            let m = s.match(/(20\d{2})-(\d{2})-(\d{2})/);
+            if (m) return new Date(parseInt(m[1]), parseInt(m[2]) - 1, parseInt(m[3]));
+
+            // PT format: 10 a 12 de Abril 2026 / 10 de Abril 2026
+            m = s.match(/(\d{1,2})\s*(?:a|e|-)?\s*(\d{1,2})?\s*de\s*([a-zçãõáéíóúâêô]+)\s*,?\s*(\d{4})/i);
+            if (m) {
+                const day = parseInt(m[1]);
+                const month = parseMonthNameToNumber(m[3]) || 1;
+                const year = parseInt(m[4]);
+                return new Date(year, month - 1, day);
+            }
+
+            // English range: From the 14th to the 17th of August (2026)
+            m = s.match(/from\s+the\s+(\d{1,2})(?:st|nd|rd|th)?\s+to\s+the\s+(\d{1,2})(?:st|nd|rd|th)?\s+of\s+([a-z]+)(?:\s*\(?(\d{4})\)?)?/i);
+            if (m) {
+                const day = parseInt(m[1]);
+                const month = parseMonthNameToNumber(m[3]) || 1;
+                const year = m[4] ? parseInt(m[4]) : 2026;
+                return new Date(year, month - 1, day);
+            }
+
+            // English cross-month range: From the 29th of July to the 9th of August (2026)
+            m = s.match(/from\s+the\s+(\d{1,2})(?:st|nd|rd|th)?\s+of\s+([a-z]+)\s+to\s+the\s+(\d{1,2})(?:st|nd|rd|th)?\s+of\s+([a-z]+)(?:\s*\(?(\d{4})\)?)?/i);
+            if (m) {
+                const day = parseInt(m[1]);
+                const month = parseMonthNameToNumber(m[2]) || 1;
+                const year = m[5] ? parseInt(m[5]) : 2026;
+                return new Date(year, month - 1, day);
+            }
+
+            // English split-day format: April 25th and 26th (2026)
+            m = s.match(/([a-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?\s+(?:and|to|-)\s+(\d{1,2})(?:st|nd|rd|th)?(?:\s*\(?(\d{4})\)?)?/i);
+            if (m) {
+                const month = parseMonthNameToNumber(m[1]) || 1;
+                const day = parseInt(m[2]);
+                const year = m[4] ? parseInt(m[4]) : 2026;
+                return new Date(year, month - 1, day);
+            }
+
+            // Month-year fallback: Abril 2026 / August 2026
+            m = s.match(/([a-zçãõáéíóúâêô]+)\s*,?\s*(20\d{2})/i);
+            if (m) {
+                const month = parseMonthNameToNumber(m[1]);
+                if (month) return new Date(parseInt(m[2]), month - 1, 1);
+            }
+
+            // Year fallback: 2026
+            m = s.match(/\b(20\d{2})\b/);
+            if (m) return new Date(parseInt(m[1]), 0, 1);
+
+            return new Date(2099, 0, 1);
         }
 
         function isPastEvent(datesStr) {
@@ -168,7 +227,7 @@
             const monthOrder = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", 
                                 "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro", "2026"];
         
-            const uniqueMonths = [...new Set(eventsData.map(e => e.month))];
+            const uniqueMonths = [...new Set(eventsData.map(e => (e.month || '').trim()).filter(Boolean))];
             
             // Sort months according to natural calendar order
             uniqueMonths.sort((a, b) => {
