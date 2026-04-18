@@ -206,10 +206,17 @@
         }
 
         function isPastEvent(datesStr) {
-            if ((datesStr || '').toLowerCase().includes('datas a confirmar')) {
+            const raw = (datesStr || '').trim();
+            const lower = raw.toLowerCase();
+
+            if (
+                lower.includes('datas a confirmar') ||
+                lower.includes('dates to be confirmed') ||
+                /^\d{4}$/.test(raw)
+            ) {
                 return false;
             }
-            const eventDate = parseEventDate(datesStr);
+            const eventDate = parseEventDate(raw);
             return eventDate < new Date();
         }
 
