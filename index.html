@@ -206,6 +206,9 @@
         }
 
         function isPastEvent(datesStr) {
+            if ((datesStr || '').toLowerCase().includes('datas a confirmar')) {
+                return false;
+            }
             const eventDate = parseEventDate(datesStr);
             return eventDate < new Date();
         }
