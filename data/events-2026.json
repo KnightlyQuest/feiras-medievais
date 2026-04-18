@@ -1,5 +1,333 @@
 [
   {
+    "name": "V Encontro Viking no Covil do Lobo",
+    "dates": "10 a 12 de Abril 2026",
+    "location": "Valpaços",
+    "month": "Abril",
+    "region": "Norte",
+    "desc": "Recriação viking com acampamento e combates.",
+    "link": ""
+  },
+  {
+    "name": "Dias Templários de Tomar",
+    "dates": "10 e 11 de Outubro 2026",
+    "location": "Tomar",
+    "month": "Outubro",
+    "region": "Centro",
+    "desc": "Evento templário histórico.",
+    "link": ""
+  },
+  {
+    "name": "Feira Afonsina de Guimarães",
+    "dates": "11 a 14 de Junho 2026",
+    "location": "Guimarães",
+    "month": "Junho",
+    "region": "Norte",
+    "desc": "Celebração da fundação de Portugal.",
+    "link": ""
+  },
+  {
+    "name": "História Viva e ao Vivo – Aljubarrota",
+    "dates": "11 de Abril 2026",
+    "location": "Aljubarrota",
+    "month": "Abril",
+    "region": "Centro",
+    "desc": "Recriação da Batalha de Aljubarrota.",
+    "link": ""
+  },
+  {
+    "name": "Feira Medieval de Castelo Mendo",
+    "dates": "11 e 12 de Abril 2026",
+    "location": "Castelo Mendo, Almeida",
+    "month": "Abril",
+    "region": "Centro",
+    "desc": "Saberes e crenças medievais na aldeia histórica.",
+    "link": ""
+  },
+  {
+    "name": "Feira Medieval de Montemor-o-Novo",
+    "dates": "12 a 14 de Junho 2026",
+    "location": "Castelo de Montemor-o-Novo",
+    "month": "Junho",
+    "region": "Alentejo",
+    "desc": "Jogos e gastronomia no castelo.",
+    "link": ""
+  },
+  {
+    "name": "Feira Medieval de Corroios",
+    "dates": "14 a 17 de Maio 2026",
+    "location": "Corroios, Seixal",
+    "month": "Maio",
+    "region": "Lisboa e Vale do Tejo",
+    "desc": "Grande feira perto de Lisboa.",
+    "link": ""
+  },
+  {
+    "name": "Marialva Medieval",
+    "dates": "15 a 17 de Maio 2026",
+    "location": "Marialva, Mêda",
+    "month": "Maio",
+    "region": "Centro",
+    "desc": "Recriação da Carta de Feira de D. Dinis.",
+    "link": ""
+  },
+  {
+    "name": "Mercado Medieval de Óbidos",
+    "dates": "16 a 26 de Julho 2026",
+    "location": "Óbidos",
+    "month": "Julho",
+    "region": "Centro",
+    "desc": "Dentro das muralhas – um dos mais famosos.",
+    "link": "https://www.obidos.pt/"
+  },
+  {
+    "name": "Feira Medieval de Torre de Moncorvo",
+    "dates": "17 a 19 de Abril 2026",
+    "location": "Torre de Moncorvo",
+    "month": "Abril",
+    "region": "Norte",
+    "desc": "Mercado, artesãos e tabernas.",
+    "link": ""
+  },
+  {
+    "name": "Festa Medieval da Quinta do Conde",
+    "dates": "17 a 20 de Abril 2026",
+    "location": "Quinta do Conde, Sesimbra",
+    "month": "Abril",
+    "region": "Lisboa e Vale do Tejo",
+    "desc": "Mercado temático e cortejos.",
+    "link": ""
+  },
+  {
+    "name": "Braga Romana",
+    "dates": "20 a 24 de Maio 2026",
+    "location": "Braga",
+    "month": "Maio",
+    "region": "Norte",
+    "desc": "5 dias de Império Romano.",
+    "link": ""
+  },
+  {
+    "name": "Feira Medieval de Alhos Vedros",
+    "dates": "2026",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "Evento do calendário feirasmedievais.pt",
+    "link": "https://feirasmedievais.pt/",
+    "maps_query": "Feira Medieval de Alhos Vedros Portugal"
+  },
+  {
+    "name": "Feira Medieval de Penela",
+    "dates": "2026",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "Evento do calendário feirasmedievais.pt",
+    "link": "https://feirasmedievais.pt/",
+    "maps_query": "Feira Medieval de Penela Portugal"
+  },
+  {
+    "name": "Feira Medieval de Mões",
+    "dates": "2026",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "Evento do calendário feirasmedievais.pt",
+    "link": "https://feirasmedievais.pt/",
+    "maps_query": "Feira Medieval de Mões Portugal"
+  },
+  {
+    "name": "História Viva e ao Vivo, Aljubarrota",
+    "dates": "2026",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "Evento do calendário feirasmedievais.pt",
+    "link": "https://feirasmedievais.pt/",
+    "maps_query": "História Viva e ao Vivo, Aljubarrota Portugal"
+  },
+  {
+    "name": "Feira Medieval Casal de São Pedro",
+    "dates": "2026",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "Evento do calendário feirasmedievais.pt",
+    "link": "https://feirasmedievais.pt/",
+    "maps_query": "Feira Medieval Casal de São Pedro Portugal"
+  },
+  {
+    "name": "Feira Medieval de Pinhel",
+    "dates": "2026",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "Evento do calendário feirasmedievais.pt",
+    "link": "https://feirasmedievais.pt/",
+    "maps_query": "Feira Medieval de Pinhel Portugal"
+  },
+  {
+    "name": "Feira Medieval de Lobelhe do Mato",
+    "dates": "2026",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "Evento do calendário feirasmedievais.pt",
+    "link": "https://feirasmedievais.pt/",
+    "maps_query": "Feira Medieval de Lobelhe do Mato Portugal"
+  },
+  {
+    "name": "What are Medieval Fairs like in Portugal?",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "Arts, entertainment, food and drink, and a lively atmosphere that goes long into the night. You’ll find a mix of period relevant displays, and often a liberal idea of historical music and dance. Food vendors are common, with a big focus on cooking over fire – grilled meats, roasted vegetables, but things like crepes too. Drinks, you’ll find historical themed vendors with tavern like menus, beer, a",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "What are Medieval Fairs like in Portugal? Portugal"
+  },
+  {
+    "name": "Feira Medieval de Castelo Mendo: April",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: April (2026 dates to be confirmed)Where:Castelo Mendo, north-east Portugal",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Feira Medieval de Castelo Mendo: April Portugal"
+  },
+  {
+    "name": "Feira Medieval de Aldeia Viçosa: April",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: April 25th and 26th (2026)Where:Aldeia Viçosa, Guarda, north-east Portugal",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Feira Medieval de Aldeia Viçosa: April Portugal"
+  },
+  {
+    "name": "Festival dos Descobrimentos: April/May",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: May (2026 dates to be confirmed)Where:Lagos, West Algarve",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Festival dos Descobrimentos: April/May Portugal"
+  },
+  {
+    "name": "Mercado Medieval de Pero Escouche: May",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: May (2026 dates to be confirmed)Where:Castelo de Pirescoxe, 15 minutes north of Lisbon",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Mercado Medieval de Pero Escouche: May Portugal"
+  },
+  {
+    "name": "Feira Medieval Ibérica de Avis: May",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: From the 8th to the 10th of May (2026)Where:Avis, Alentejo1.5 hours east of Lisbon",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Feira Medieval Ibérica de Avis: May Portugal"
+  },
+  {
+    "name": "Marialva Medieval: May",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: May (2026 dates to be confirmed)Where:Marialva, north-east Portugal",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Marialva Medieval: May Portugal"
+  },
+  {
+    "name": "Feira Setecentista: May",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: From the 13th to the 17th of May (2026)Where:Vila Real de Santo Antonio, east Algarve",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Feira Setecentista: May Portugal"
+  },
+  {
+    "name": "Festival Pombalino: May",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: May (2026 dates to be confirmed)Where:Pombal, Central Portugal",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Festival Pombalino: May Portugal"
+  },
+  {
+    "name": "Feira Medieval Castelo de Montemor-o-Novo: June",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: From the 12th to the 14th of June (2026)Where:Montemor-o-Novo, 30 minutes east of Lisbon",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Feira Medieval Castelo de Montemor-o-Novo: June Portugal"
+  },
+  {
+    "name": "Mercado Medieval de Sintra – July",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: July (2026 dates to be confirmed)Where:Sintra",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Mercado Medieval de Sintra – July Portugal"
+  },
+  {
+    "name": "Leiria Medieval: July",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: July (2026 dates to be confirmed)Where:Leiria, Central Portugal – halfway between Lisbon and Porto",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Leiria Medieval: July Portugal"
+  },
+  {
+    "name": "Mercado Medieval de Óbidos: July",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: July (2026 dates to be confirmed)Where:Óbidos, one hour north of Lisbon",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Mercado Medieval de Óbidos: July Portugal"
+  },
+  {
+    "name": "Viagem Medieval em Terra de Santa Maria: July/August",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: From the 29th of July to the 9th of AugustWhere:Santa Maria da Feira, 40 minutes south of Porto",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Viagem Medieval em Terra de Santa Maria: July/August Portugal"
+  },
+  {
+    "name": "Silves Medieval Fair: August",
+    "dates": "2026 (datas a confirmar)",
+    "location": "Portugal",
+    "month": "2026",
+    "region": "Portugal",
+    "desc": "When: August (2026 dates to be confirmed)Where:Silves, Algarve",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Silves Medieval Fair: August Portugal"
+  },
+  {
     "name": "Aljubarrota Medieval Fair: August",
     "dates": "2026 (datas a confirmar)",
     "location": "Portugal",
@@ -20,46 +348,6 @@
     "maps_query": "Columbus Festival: September Portugal"
   },
   {
-    "name": "Feira Medieval Casal de São Pedro",
-    "dates": "2026",
-    "location": "São Pedro",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "Evento do calendário feirasmedievais.pt",
-    "link": "https://feirasmedievais.pt/",
-    "maps_query": "Feira Medieval Casal de São Pedro Portugal"
-  },
-  {
-    "name": "Feira Medieval Castelo de Montemor-o-Novo: June",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: From the 12th to the 14th of June (2026)Where:Montemor-o-Novo, 30 minutes east of Lisbon",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Feira Medieval Castelo de Montemor-o-Novo: June Portugal"
-  },
-  {
-    "name": "Feira Medieval de Aldeia Viçosa: April",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: April 25th and 26th (2026)Where:Aldeia Viçosa, Guarda, north-east Portugal",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Feira Medieval de Aldeia Viçosa: April Portugal"
-  },
-  {
-    "name": "Feira Medieval de Castelo Mendo: April",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: April (2026 dates to be confirmed)Where:Castelo Mendo, north-east Portugal",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Feira Medieval de Castelo Mendo: April Portugal"
-  },
-  {
     "name": "Feira Medieval de Palmela: September",
     "dates": "2026 (datas a confirmar)",
     "location": "Portugal",
@@ -68,26 +356,6 @@
     "desc": "When: September (2026 dates to be confirmed)Where:Palmela, 30 minutes south of Lisbon",
     "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
     "maps_query": "Feira Medieval de Palmela: September Portugal"
-  },
-  {
-    "name": "Feira Medieval Ibérica de Avis: May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: From the 8th to the 10th of May (2026)Where:Avis, Alentejo1.5 hours east of Lisbon",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Feira Medieval Ibérica de Avis: May Portugal"
-  },
-  {
-    "name": "Feira Setecentista: May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: From the 13th to the 17th of May (2026)Where:Vila Real de Santo Antonio, east Algarve",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Feira Setecentista: May Portugal"
   },
   {
     "name": "Festival Al Mossassa: October",
@@ -100,96 +368,6 @@
     "maps_query": "Festival Al Mossassa: October Portugal"
   },
   {
-    "name": "Festival dos Descobrimentos: April/May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: May (2026 dates to be confirmed)Where:Lagos, West Algarve",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Festival dos Descobrimentos: April/May Portugal"
-  },
-  {
-    "name": "Festival Pombalino: May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: May (2026 dates to be confirmed)Where:Pombal, Central Portugal",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Festival Pombalino: May Portugal"
-  },
-  {
-    "name": "História Viva e ao Vivo, Aljubarrota",
-    "dates": "2026",
-    "location": "Aljubarrota",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "Evento do calendário feirasmedievais.pt",
-    "link": "https://feirasmedievais.pt/",
-    "maps_query": "História Viva e ao Vivo, Aljubarrota Portugal"
-  },
-  {
-    "name": "Leiria Medieval: July",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: July (2026 dates to be confirmed)Where:Leiria, Central Portugal – halfway between Lisbon and Porto",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Leiria Medieval: July Portugal"
-  },
-  {
-    "name": "Marialva Medieval: May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: May (2026 dates to be confirmed)Where:Marialva, north-east Portugal",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Marialva Medieval: May Portugal"
-  },
-  {
-    "name": "Mercado das Alcaçarias Faro: May/June",
-    "dates": "Mercado das Alcaçarias Faro: May/June When: May/June (2026 dates to be confirmed) Where: Faro , Algarve",
-    "location": "Portugal",
-    "month": "Janeiro",
-    "region": "Portugal",
-    "desc": "When: May/June (2026 dates to be confirmed) Where: Faro , Algarve",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Mercado das Alcaçarias Faro: May/June Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Óbidos: July",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: July (2026 dates to be confirmed)Where:Óbidos, one hour north of Lisbon",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Mercado Medieval de Óbidos: July Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Pero Escouche: May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: May (2026 dates to be confirmed)Where:Castelo de Pirescoxe, 15 minutes north of Lisbon",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Mercado Medieval de Pero Escouche: May Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Sintra – July",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: July (2026 dates to be confirmed)Where:Sintra",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Mercado Medieval de Sintra – July Portugal"
-  },
-  {
     "name": "Paderne Medieval: January 2027",
     "dates": "2026 (datas a confirmar)",
     "location": "Portugal",
@@ -200,674 +378,59 @@
     "maps_query": "Paderne Medieval: January 2027 Portugal"
   },
   {
-    "name": "Silves Medieval Fair: August",
+    "name": "Which Medieval Fair will you be visiting in Portugal?",
     "dates": "2026 (datas a confirmar)",
     "location": "Portugal",
     "month": "2026",
     "region": "Portugal",
-    "desc": "When: August (2026 dates to be confirmed)Where:Silves, Algarve",
+    "desc": "Have we missed something from this list? Let us know and we’ll add it as soon as we can! What’s your favourite historic festival to vist?",
     "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Silves Medieval Fair: August Portugal"
-  },
-  {
-    "name": "Viagem Medieval em Terra de Santa Maria: July/August",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: From the 29th of July to the 9th of AugustWhere:Santa Maria da Feira, 40 minutes south of Porto",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Viagem Medieval em Terra de Santa Maria: July/August Portugal"
-  },
-  {
-    "name": "Feira Medieval Mais Pequena do Mundo",
-    "dates": "3 a 5 de Abril 2026",
-    "location": "Castro Marim, Algarve",
-    "month": "Abril",
-    "region": "Algarve",
-    "desc": "A mais pequena do mundo! Mercado, tabernas e animação no castelo.",
-    "link": "",
-    "maps_query": "Feira Medieval Mais Pequena do Mundo Castro Marim, Algarve Portugal"
-  },
-  {
-    "name": "Astérix Vai À Escola na Lusitânia",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Astérix Vai À Escola na Lusitânia Portugal"
-  },
-  {
-    "name": "Campeonato de Arco e Besta Históricos de Castro Marim",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Campeonato de Arco e Besta Históricos de Castro Marim Portugal"
-  },
-  {
-    "name": "Casamento Real - Isabel de Portugal com Carlos V, Elvas",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Casamento Real - Isabel de Portugal com Carlos V, Elvas Portugal"
-  },
-  {
-    "name": "Feira Medieval de Aldeia Viçosa",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Aldeia Viçosa Portugal"
-  },
-  {
-    "name": "Feira Medieval de Castelo Mendo",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Castelo Mendo Portugal"
-  },
-  {
-    "name": "Feira Medieval de Torre de Moncorvo",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Torre de Moncorvo Portugal"
+    "maps_query": "Which Medieval Fair will you be visiting in Portugal? Portugal"
   },
   {
     "name": "Feira Quinhentista de Sever do Vouga",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
+    "dates": "24 a 26 de Abril 2026",
+    "location": "Sever do Vouga",
     "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Quinhentista de Sever do Vouga Portugal"
-  },
-  {
-    "name": "Festa Medieval da Quinta do Conde",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Festa Medieval da Quinta do Conde Portugal"
-  },
-  {
-    "name": "Festival dos Moinhos de Portugal",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Festival dos Moinhos de Portugal Portugal"
-  },
-  {
-    "name": "História Viva e ao Vivo, Aljubarrota",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "História Viva e ao Vivo, Aljubarrota Portugal"
-  },
-  {
-    "name": "Invasões Francesas em Arrifana",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Invasões Francesas em Arrifana Portugal"
-  },
-  {
-    "name": "V Encontro Viking no Covil do Lobo",
-    "dates": "10 a 12 de Abril 2026",
-    "location": "Valpaços",
-    "month": "Abril",
-    "region": "Norte",
-    "desc": "Recriação viking com acampamento e combates.",
-    "link": "",
-    "maps_query": "V Encontro Viking no Covil do Lobo Valpaços Portugal"
-  },
-  {
-    "name": "V Encontro Viking no Covil do Lobo, Valpaços",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "V Encontro Viking no Covil do Lobo, Valpaços Portugal"
-  },
-  {
-    "name": "Via Sacra ao Vivo, Ourém",
-    "dates": "10 a 12 de Abril, 2026",
-    "location": "Covil do Lobo,Valpaços",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Via Sacra ao Vivo, Ourém Portugal"
-  },
-  {
-    "name": "Beltane - Festival Celta de Sintra",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Beltane - Festival Celta de Sintra Portugal"
-  },
-  {
-    "name": "Braga Romana",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Braga Romana Portugal"
-  },
-  {
-    "name": "Campeonato de Arco e Besta Históricos de Óbidos",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Campeonato de Arco e Besta Históricos de Óbidos Portugal"
-  },
-  {
-    "name": "Dume Sueva",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Dume Sueva Portugal"
-  },
-  {
-    "name": "Feira Medieval de Ansiães",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Ansiães Portugal"
-  },
-  {
-    "name": "Feira Medieval de Corroios",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Corroios Portugal"
-  },
-  {
-    "name": "Feira Medieval de Penela",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Penela Portugal"
-  },
-  {
-    "name": "Feira Medieval Ibérica de Avis",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval Ibérica de Avis Portugal"
-  },
-  {
-    "name": "Feira Renascentista de Terras de Algodres",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Renascentista de Terras de Algodres Portugal"
-  },
-  {
-    "name": "Festival Histórico Setecentista de V. R. Santo António",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Festival Histórico Setecentista de V. R. Santo António Portugal"
-  },
-  {
-    "name": "Levada, Festival de Dança e Música Histórica",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Levada, Festival de Dança e Música Histórica Portugal"
-  },
-  {
-    "name": "Marialva Medieval",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Marialva Medieval Portugal"
-  },
-  {
-    "name": "Mercado Celta Romano de Cacia",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Celta Romano de Cacia Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Leça da Palmeira",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Medieval de Leça da Palmeira Portugal"
-  },
-  {
-    "name": "Mercado Oitecentista de Sapataria",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Oitecentista de Sapataria Portugal"
-  },
-  {
-    "name": "Mercado Quinhentista de Carapito",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Quinhentista de Carapito Portugal"
-  },
-  {
-    "name": "Torneio Medieval de Carrazeda de Ansiães",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Torneio Medieval de Carrazeda de Ansiães Portugal"
-  },
-  {
-    "name": "Mercado Celta-Romano de Cacia",
-    "dates": "9 a 12 de Maio 2026",
-    "location": "Cacia, Aveiro",
-    "month": "Maio",
     "region": "Centro",
-    "desc": "Ambiente celta-romano.",
-    "link": "",
-    "maps_query": "Mercado Celta-Romano de Cacia Cacia, Aveiro Portugal"
+    "desc": "Mercado do século XVI.",
+    "link": ""
   },
   {
-    "name": "Campeonato de Arco e Besta Históricos de Ourém",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Campeonato de Arco e Besta Históricos de Ourém Portugal"
+    "name": "Feira Medieval de Palmela",
+    "dates": "25 a 27 de Setembro 2026",
+    "location": "Palmela",
+    "month": "Setembro",
+    "region": "Lisboa e Vale do Tejo",
+    "desc": "Clássica feira no castelo.",
+    "link": ""
   },
   {
-    "name": "Campeonato de Arco e Besta Históricos em Montemor-o-Velho",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
+    "name": "Feira Medieval de Aldeia Viçosa",
+    "dates": "25 e 26 de Abril 2026",
+    "location": "Aldeia Viçosa, Guarda",
     "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Campeonato de Arco e Besta Históricos em Montemor-o-Velho Portugal"
-  },
-  {
-    "name": "Dias Romanos, Belmonte",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Dias Romanos, Belmonte Portugal"
-  },
-  {
-    "name": "Feira Afonsina de Guimarães",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Afonsina de Guimarães Portugal"
-  },
-  {
-    "name": "Feira Medieval Castelo de Montemor-o-Novo",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval Castelo de Montemor-o-Novo Portugal"
-  },
-  {
-    "name": "Feira Medieval de Alhos Vedros",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Alhos Vedros Portugal"
-  },
-  {
-    "name": "Feira Medieval de Lobelhe do Mato",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Lobelhe do Mato Portugal"
-  },
-  {
-    "name": "Feira Medieval de Pinhel",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Pinhel Portugal"
-  },
-  {
-    "name": "Feira Medieval de Vilar de Andorinho",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Vilar de Andorinho Portugal"
+    "region": "Centro",
+    "desc": "Homenagem a D. Dinis.",
+    "link": ""
   },
   {
     "name": "Feira Medieval do Beato",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval do Beato Portugal"
-  },
-  {
-    "name": "Feira Quinhentista de Aldeia Galega",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Quinhentista de Aldeia Galega Portugal"
-  },
-  {
-    "name": "Grande Troféu Ibérico, Óbidos 2026",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Grande Troféu Ibérico, Óbidos 2026 Portugal"
-  },
-  {
-    "name": "Mercado Histórico de Lousada",
-    "dates": "4 a 10 de Junho, 2026",
-    "location": "Colmeal da Torre, Belmonte",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Histórico de Lousada Portugal"
-  },
-  {
-    "name": "Feira Medieval de Montemor-o-Novo",
-    "dates": "12 a 14 de Junho 2026",
-    "location": "Castelo de Montemor-o-Novo",
+    "dates": "26 a 28 de Junho 2026",
+    "location": "Beato, Lisboa",
     "month": "Junho",
-    "region": "Alentejo",
-    "desc": "Jogos e gastronomia no castelo.",
-    "link": "",
-    "maps_query": "Feira Medieval de Montemor-o-Novo Castelo de Montemor-o-Novo Portugal"
+    "region": "Lisboa e Vale do Tejo",
+    "desc": "Feira medieval em Lisboa.",
+    "link": ""
   },
   {
-    "name": "Campeonato de de Arco e Besta Históricos de Alcanede",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Campeonato de de Arco e Besta Históricos de Alcanede Portugal"
-  },
-  {
-    "name": "Feira Medieval da Encoberta",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval da Encoberta Portugal"
-  },
-  {
-    "name": "Feira Medieval de Canha",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Canha Portugal"
-  },
-  {
-    "name": "Feira Medieval de Constantim",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Constantim Portugal"
-  },
-  {
-    "name": "Feira Medieval de Mões",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Mões Portugal"
-  },
-  {
-    "name": "Feira Medieval de Serra D'el Rei",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Serra D'el Rei Portugal"
-  },
-  {
-    "name": "Feira Medieval de Sintra",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Sintra Portugal"
-  },
-  {
-    "name": "Feira Oitecentista do Vimeiro",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Oitecentista do Vimeiro Portugal"
-  },
-  {
-    "name": "Festival Medieval de Elvas",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Festival Medieval de Elvas Portugal"
-  },
-  {
-    "name": "Galaicofolia",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Galaicofolia Portugal"
-  },
-  {
-    "name": "Jornadas Medievais de Canelas do Douro",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Jornadas Medievais de Canelas do Douro Portugal"
-  },
-  {
-    "name": "Leiria Medieval",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Leiria Medieval Portugal"
-  },
-  {
-    "name": "Mercado de Culturas ...À Luz das Velas",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado de Culturas ...À Luz das Velas Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Azambuja",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Medieval de Azambuja Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Cambra",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Medieval de Cambra Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Óbidos",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Medieval de Óbidos Portugal"
-  },
-  {
-    "name": "Recriação da Batalha do Vimeiro 1808",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Recriação da Batalha do Vimeiro 1808 Portugal"
-  },
-  {
-    "name": "Viagem Medieval em Terras de Santa Maria da Feira",
-    "dates": "2 a 5 de Julho, 2026 Nova",
-    "location": "Elvas",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Viagem Medieval em Terras de Santa Maria da Feira Portugal"
+    "name": "Dias Medievais de Castro Marim",
+    "dates": "26 a 30 de Agosto 2026",
+    "location": "Castro Marim",
+    "month": "Agosto",
+    "region": "Algarve",
+    "desc": "27.ª edição no castelo.",
+    "link": ""
   },
   {
     "name": "Viagem Medieval em Terra de Santa Maria",
@@ -876,158 +439,16 @@
     "month": "Julho",
     "region": "Centro",
     "desc": "O maior evento medieval da Europa! 30ª edição.",
-    "link": "https://www.viagemmedieval.com/",
-    "maps_query": "Viagem Medieval em Terra de Santa Maria Santa Maria da Feira Portugal"
+    "link": "https://www.viagemmedieval.com/"
   },
   {
-    "name": "Dias Medievais de Castro Marim",
-    "dates": "7 a 15 de Agosto, 2026 Nova",
-    "location": "Silves",
+    "name": "Feira Medieval Mais Pequena do Mundo",
+    "dates": "3 a 5 de Abril 2026",
+    "location": "Castro Marim, Algarve",
     "month": "Abril",
-    "region": "Portugal",
-    "desc": "7 a 15 de Agosto, 2026 Nova | Silves | Era Viking",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Dias Medievais de Castro Marim Portugal"
-  },
-  {
-    "name": "Feira Medieval de Silves",
-    "dates": "7 a 15 de Agosto, 2026 Nova",
-    "location": "Silves",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "7 a 15 de Agosto, 2026 Nova | Silves | Era Viking",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Silves Portugal"
-  },
-  {
-    "name": "Festa da História de V. N. de Cerveira",
-    "dates": "7 a 15 de Agosto, 2026 Nova",
-    "location": "Silves",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "7 a 15 de Agosto, 2026 Nova | Silves | Era Viking",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Festa da História de V. N. de Cerveira Portugal"
-  },
-  {
-    "name": "Festa Medieval de Malta, Vila do Conde",
-    "dates": "7 a 15 de Agosto, 2026 Nova",
-    "location": "Silves",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "7 a 15 de Agosto, 2026 Nova | Silves | Era Viking",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Festa Medieval de Malta, Vila do Conde Portugal"
-  },
-  {
-    "name": "Recriação do Cerco de Almeida",
-    "dates": "7 a 15 de Agosto, 2026 Nova",
-    "location": "Silves",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "7 a 15 de Agosto, 2026 Nova | Silves | Era Viking",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Recriação do Cerco de Almeida Portugal"
-  },
-  {
-    "name": "Alvalade Medieval",
-    "dates": "4 a 6 de Setembro, 2026",
-    "location": "Campo de Gandara, Cordinhã",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 6 de Setembro, 2026 | Campo de Gandara, Cordinhã | Wine & History",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Alvalade Medieval Portugal"
-  },
-  {
-    "name": "Feira Medieval de Marvila",
-    "dates": "4 a 6 de Setembro, 2026",
-    "location": "Campo de Gandara, Cordinhã",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 6 de Setembro, 2026 | Campo de Gandara, Cordinhã | Wine & History",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Marvila Portugal"
-  },
-  {
-    "name": "Feira Medieval de Palmela",
-    "dates": "4 a 6 de Setembro, 2026",
-    "location": "Campo de Gandara, Cordinhã",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 6 de Setembro, 2026 | Campo de Gandara, Cordinhã | Wine & History",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Medieval de Palmela Portugal"
-  },
-  {
-    "name": "Festa Pombalina Vindouro",
-    "dates": "4 a 6 de Setembro, 2026",
-    "location": "Campo de Gandara, Cordinhã",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 6 de Setembro, 2026 | Campo de Gandara, Cordinhã | Wine & History",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Festa Pombalina Vindouro Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Villa Cordiana",
-    "dates": "4 a 6 de Setembro, 2026",
-    "location": "Campo de Gandara, Cordinhã",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "4 a 6 de Setembro, 2026 | Campo de Gandara, Cordinhã | Wine & History",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Medieval de Villa Cordiana Portugal"
-  },
-  {
-    "name": "Campeonato de Arco e Besta Históricos de Aljubarrota",
-    "dates": "2 a 5 de Outubro, 2026 Nova",
-    "location": "Azurara,Vila do Conde",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Outubro, 2026 Nova | Azurara,Vila do Conde | Roteiro dos Castelos",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Campeonato de Arco e Besta Históricos de Aljubarrota Portugal"
-  },
-  {
-    "name": "Campeonato de Arco e Besta Históricos de Tomar",
-    "dates": "2 a 5 de Outubro, 2026 Nova",
-    "location": "Azurara,Vila do Conde",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Outubro, 2026 Nova | Azurara,Vila do Conde | Roteiro dos Castelos",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Campeonato de Arco e Besta Históricos de Tomar Portugal"
-  },
-  {
-    "name": "Dias Templários de Tomar",
-    "dates": "2 a 5 de Outubro, 2026 Nova",
-    "location": "Azurara,Vila do Conde",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Outubro, 2026 Nova | Azurara,Vila do Conde | Roteiro dos Castelos",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Dias Templários de Tomar Portugal"
-  },
-  {
-    "name": "Festival Almossassa - Marvão",
-    "dates": "2 a 5 de Outubro, 2026 Nova",
-    "location": "Azurara,Vila do Conde",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Outubro, 2026 Nova | Azurara,Vila do Conde | Roteiro dos Castelos",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Festival Almossassa - Marvão Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Azurara",
-    "dates": "2 a 5 de Outubro, 2026 Nova",
-    "location": "Azurara,Vila do Conde",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "2 a 5 de Outubro, 2026 Nova | Azurara,Vila do Conde | Roteiro dos Castelos",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Medieval de Azurara Portugal"
+    "region": "Algarve",
+    "desc": "A mais pequena do mundo! Mercado, tabernas e animação no castelo.",
+    "link": ""
   },
   {
     "name": "Festival Almossassa",
@@ -1036,37 +457,33 @@
     "month": "Outubro",
     "region": "Alentejo",
     "desc": "Recriação mouro do século IX.",
-    "link": "",
-    "maps_query": "Festival Almossassa Marvão Portugal"
+    "link": ""
   },
   {
-    "name": "Campeonato de Arco e Besta Histórico de Silves",
-    "dates": "8 de Novembro, 2026",
-    "location": "Castelo de Silves",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 de Novembro, 2026 | Castelo de Silves | Roteiro dos Castelos",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Campeonato de Arco e Besta Histórico de Silves Portugal"
+    "name": "Feira Medieval Ibérica de Avis",
+    "dates": "8 a 10 de Maio 2026",
+    "location": "Avis",
+    "month": "Maio",
+    "region": "Alentejo",
+    "desc": "20+ anos de tradição.",
+    "link": ""
   },
   {
-    "name": "V Congresso Da Associação dos Arqueólogos Portugueses",
-    "dates": "8 de Novembro, 2026",
-    "location": "Castelo de Silves",
-    "month": "Abril",
-    "region": "Portugal",
-    "desc": "8 de Novembro, 2026 | Castelo de Silves | Roteiro dos Castelos",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "V Congresso Da Associação dos Arqueólogos Portugueses Portugal"
+    "name": "Feira Medieval de Sintra",
+    "dates": "9 a 12 de Julho 2026",
+    "location": "Sintra",
+    "month": "Julho",
+    "region": "Lisboa e Vale do Tejo",
+    "desc": "Mercado medieval na vila mágica.",
+    "link": ""
   },
   {
-    "name": "Feiras Medievais, Quinhentistas, Renascentista, Recriações de Batalhas, Mercados Romanos, Feiras Setecentistas,Recriações Históricas, etc.",
-    "dates": "Feiras Medievais, Quinhentistas, Renascentista, Recriações de Batalhas, Mercados Romanos, Feiras Setecentistas,Recriações Históricas, etc.",
-    "location": "etc.",
-    "month": "",
-    "region": "Portugal",
-    "desc": "Feiras Medievais, Quinhentistas, Renascentista, Recriações de Batalhas, Mercados Romanos, Feiras Setecentistas,Recriações Históricas, etc.",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feiras Medievais, Quinhentistas, Renascentista, Recriações de Batalhas, Mercados Romanos, Feiras Setecentistas,Recriações Históricas, etc. Portugal"
+    "name": "Mercado Celta-Romano de Cacia",
+    "dates": "9 a 12 de Maio 2026",
+    "location": "Cacia, Aveiro",
+    "month": "Maio",
+    "region": "Centro",
+    "desc": "Ambiente celta-romano.",
+    "link": ""
   }
 ]
