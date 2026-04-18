@@ -28,6 +28,21 @@ MONTHS = {
     "dezembro": 12,
 }
 MONTH_RE = r"janeiro|fevereiro|marco|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro"
+EN_MONTHS = {
+    "january": 1,
+    "february": 2,
+    "march": 3,
+    "april": 4,
+    "may": 5,
+    "june": 6,
+    "july": 7,
+    "august": 8,
+    "september": 9,
+    "october": 10,
+    "november": 11,
+    "december": 12,
+}
+EN_MONTH_RE = r"january|february|march|april|may|june|july|august|september|october|november|december"
 MONTHS_DISPLAY = {
     1: "Janeiro",
     2: "Fevereiro",
@@ -147,6 +162,81 @@ def make_iso(year, month, day):
 
 def parse_dates_pt(raw_text, default_year=DEFAULT_YEAR):
     raw = normalize_spaces(raw_text)
+
+    # English range same month: From the 14th to the 17th of August (2026)
+    m = re.search(
+        rf"\bfrom\s+the\s+(\d{{1,2}})(?:st|nd|rd|th)?\s+to\s+the\s+(\d{{1,2}})(?:st|nd|rd|th)?\s+of\s+({EN_MONTH_RE})(?:\s*\(?(\d{{4}})\)?)?\b",
+        raw,
+        re.I,
+    )
+    if m:
+        d1, d2, month, year = m.groups()
+        year = int(year) if year else default_year
+        month_num = EN_MONTHS[month.lower()]
+        return {
+            "start_date": make_iso(year, month_num, d1),
+            "end_date": make_iso(year, month_num, d2),
+            "date_confidence": "exact_range",
+        }
+
+    # English range across months: From the 29th of July to the 9th of August (2026)
+    m = re.search(
+        rf"\bfrom\s+the\s+(\d{{1,2}})(?:st|nd|rd|th)?\s+of\s+({EN_MONTH_RE})\s+to\s+the\s+(\d{{1,2}})(?:st|nd|rd|th)?\s+of\s+({EN_MONTH_RE})(?:\s*\(?(\d{{4}})\)?)?\b",
+        raw,
+        re.I,
+    )
+    if m:
+        d1, m1, d2, m2, year = m.groups()
+        year = int(year) if year else default_year
+        return {
+            "start_date": make_iso(year, EN_MONTHS[m1.lower()], d1),
+            "end_date": make_iso(year, EN_MONTHS[m2.lower()], d2),
+            "date_confidence": "exact_range",
+        }
+
+    # English same-month split days: April 25th and 26th (2026)
+    m = re.search(
+        rf"\b({EN_MONTH_RE})\s+(\d{{1,2}})(?:st|nd|rd|th)?\s+(?:and|to|-)\s+(\d{{1,2}})(?:st|nd|rd|th)?(?:\s*\(?(\d{{4}})\)?)?\b",
+        raw,
+        re.I,
+    )
+    if m:
+        month, d1, d2, year = m.groups()
+        year = int(year) if year else default_year
+        month_num = EN_MONTHS[month.lower()]
+        return {
+            "start_date": make_iso(year, month_num, d1),
+            "end_date": make_iso(year, month_num, d2),
+            "date_confidence": "exact_range",
+        }
+
+    # English month/day: August 14th 2026
+    m = re.search(
+        rf"\b({EN_MONTH_RE})\s+(\d{{1,2}})(?:st|nd|rd|th)?(?:\s*\(?(\d{{4}})\)?)?\b",
+        raw,
+        re.I,
+    )
+    if m:
+        month, day, year = m.groups()
+        year = int(year) if year else default_year
+        month_num = EN_MONTHS[month.lower()]
+        d = make_iso(year, month_num, day)
+        return {
+            "start_date": d,
+            "end_date": d,
+            "date_confidence": "exact_day",
+        }
+
+    # English month/year: August 2026
+    m = re.search(rf"\b({EN_MONTH_RE})\s*\(?(\d{{4}})\)?\b", raw, re.I)
+    if m:
+        month, year = m.groups()
+        year = int(year)
+        return {
+            "start_date": f"{year:04d}-{EN_MONTHS[month.lower()]:02d}-01",
+            "end_date": None,
+            "date_confidence": "month_only",
+        }
 
     # ISO range: 2026-05-08 -> 2026-05-10
     m = re.search(r"\b(20\d{2}-\d{2}-\d{2})\s*->\s*(20\d{2}-\d{2}-\d{2})\b", raw)
@@ -332,6 +422,7 @@ def is_noise_event_name(name):
         "calendar",
         "calendario",
         "subscribe",
+        "feiras medievais quinhentistas",
     ]
     if any(token in n for token in bad_contains):
         return True
@@ -378,7 +469,14 @@ def clean_event(event):
         event["month"] = month_display_from_any(event["month"])
 
     iso_only_dates = bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}(?:\s*->\s*\d{4}-\d{2}-\d{2})?", event["dates"]))
-    if not event["dates"] or iso_only_dates:
+    pt_human_date = bool(
+        re.search(
+            r"\b\d{1,2}\s*(?:a|e|-)?\s*\d{0,2}\s*de\s*[A-Za-zçÇáéíóúãõâêôÁÉÍÓÚÃÕÂÊÔ]+\s*\d{0,4}\b",
+            event["dates"],
+            re.I,
+        )
+    )
+    if event.get("start_date") and (not event["dates"] or iso_only_dates or not pt_human_date):
         formatted = format_dates_for_ui(event.get("start_date"), event.get("end_date"), event.get("date_confidence"))
         event["dates"] = formatted or event["dates"]
 
