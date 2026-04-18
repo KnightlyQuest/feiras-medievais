@@ -1,25 +1,5 @@
 [
   {
-    "name": "Aljubarrota Medieval Fair: August",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: From the 14th to the 17th of AugustWhere:Alcobaça, 90 minutes north of Lisbon",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Aljubarrota Medieval Fair: August Portugal"
-  },
-  {
-    "name": "Columbus Festival: September",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: From the 17th to the 20th of September (2026)Where:Porto Santo, Madeira",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Columbus Festival: September Portugal"
-  },
-  {
     "name": "Feira Medieval Casal de São Pedro",
     "dates": "2026",
     "location": "São Pedro",
@@ -30,194 +10,14 @@
     "maps_query": "Feira Medieval Casal de São Pedro Portugal"
   },
   {
-    "name": "Feira Medieval Castelo de Montemor-o-Novo: June",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: From the 12th to the 14th of June (2026)Where:Montemor-o-Novo, 30 minutes east of Lisbon",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Feira Medieval Castelo de Montemor-o-Novo: June Portugal"
-  },
-  {
-    "name": "Feira Medieval de Aldeia Viçosa: April",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: April 25th and 26th (2026)Where:Aldeia Viçosa, Guarda, north-east Portugal",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Feira Medieval de Aldeia Viçosa: April Portugal"
-  },
-  {
     "name": "Feira Medieval de Castelo Mendo: April",
-    "dates": "2026 (datas a confirmar)",
+    "dates": "Abril 2026",
     "location": "Portugal",
-    "month": "2026",
+    "month": "Abril",
     "region": "Portugal",
-    "desc": "When: April (2026 dates to be confirmed)Where:Castelo Mendo, north-east Portugal",
+    "desc": "When: April (2026 dates to be confirmed) Where: Castelo Mendo , north-east Portugal",
     "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
     "maps_query": "Feira Medieval de Castelo Mendo: April Portugal"
-  },
-  {
-    "name": "Feira Medieval de Palmela: September",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: September (2026 dates to be confirmed)Where:Palmela, 30 minutes south of Lisbon",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Feira Medieval de Palmela: September Portugal"
-  },
-  {
-    "name": "Feira Medieval Ibérica de Avis: May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: From the 8th to the 10th of May (2026)Where:Avis, Alentejo1.5 hours east of Lisbon",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Feira Medieval Ibérica de Avis: May Portugal"
-  },
-  {
-    "name": "Feira Setecentista: May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: From the 13th to the 17th of May (2026)Where:Vila Real de Santo Antonio, east Algarve",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Feira Setecentista: May Portugal"
-  },
-  {
-    "name": "Festival Al Mossassa: October",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: October (2026 dates to be confirmed)Where:Marvao, Alentejo",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Festival Al Mossassa: October Portugal"
-  },
-  {
-    "name": "Festival dos Descobrimentos: April/May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: May (2026 dates to be confirmed)Where:Lagos, West Algarve",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Festival dos Descobrimentos: April/May Portugal"
-  },
-  {
-    "name": "Festival Pombalino: May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: May (2026 dates to be confirmed)Where:Pombal, Central Portugal",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Festival Pombalino: May Portugal"
-  },
-  {
-    "name": "História Viva e ao Vivo, Aljubarrota",
-    "dates": "2026",
-    "location": "Aljubarrota",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "Evento do calendário feirasmedievais.pt",
-    "link": "https://feirasmedievais.pt/",
-    "maps_query": "História Viva e ao Vivo, Aljubarrota Portugal"
-  },
-  {
-    "name": "Leiria Medieval: July",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: July (2026 dates to be confirmed)Where:Leiria, Central Portugal – halfway between Lisbon and Porto",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Leiria Medieval: July Portugal"
-  },
-  {
-    "name": "Marialva Medieval: May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: May (2026 dates to be confirmed)Where:Marialva, north-east Portugal",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Marialva Medieval: May Portugal"
-  },
-  {
-    "name": "Mercado das Alcaçarias Faro: May/June",
-    "dates": "Mercado das Alcaçarias Faro: May/June When: May/June (2026 dates to be confirmed) Where: Faro , Algarve",
-    "location": "Portugal",
-    "month": "Janeiro",
-    "region": "Portugal",
-    "desc": "When: May/June (2026 dates to be confirmed) Where: Faro , Algarve",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Mercado das Alcaçarias Faro: May/June Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Óbidos: July",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: July (2026 dates to be confirmed)Where:Óbidos, one hour north of Lisbon",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Mercado Medieval de Óbidos: July Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Pero Escouche: May",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: May (2026 dates to be confirmed)Where:Castelo de Pirescoxe, 15 minutes north of Lisbon",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Mercado Medieval de Pero Escouche: May Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Sintra – July",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: July (2026 dates to be confirmed)Where:Sintra",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Mercado Medieval de Sintra – July Portugal"
-  },
-  {
-    "name": "Paderne Medieval: January 2027",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: January (2026 dates to be confirmed)Where:Paderne, Algarve",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Paderne Medieval: January 2027 Portugal"
-  },
-  {
-    "name": "Silves Medieval Fair: August",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: August (2026 dates to be confirmed)Where:Silves, Algarve",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Silves Medieval Fair: August Portugal"
-  },
-  {
-    "name": "Viagem Medieval em Terra de Santa Maria: July/August",
-    "dates": "2026 (datas a confirmar)",
-    "location": "Portugal",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "When: From the 29th of July to the 9th of AugustWhere:Santa Maria da Feira, 40 minutes south of Porto",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Viagem Medieval em Terra de Santa Maria: July/August Portugal"
   },
   {
     "name": "Feira Medieval Mais Pequena do Mundo",
@@ -330,6 +130,16 @@
     "maps_query": "História Viva e ao Vivo, Aljubarrota Portugal"
   },
   {
+    "name": "História Viva e ao Vivo, Aljubarrota",
+    "dates": "10 a 12 de Abril, 2026",
+    "location": "Covil do Lobo,Valpaços",
+    "month": "Abril",
+    "region": "Portugal",
+    "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "História Viva e ao Vivo, Aljubarrota Portugal"
+  },
+  {
     "name": "Invasões Francesas em Arrifana",
     "dates": "10 a 12 de Abril, 2026",
     "location": "Covil do Lobo,Valpaços",
@@ -368,6 +178,56 @@
     "desc": "10 a 12 de Abril, 2026 | Covil do Lobo,Valpaços | Séculos XII, XIII e XIV Arqueiros",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Via Sacra ao Vivo, Ourém Portugal"
+  },
+  {
+    "name": "Feira Medieval de Aldeia Viçosa: April",
+    "dates": "25 a 26 de Abril 2026",
+    "location": "Portugal",
+    "month": "Abril",
+    "region": "Portugal",
+    "desc": "When: April 25th and 26th (2026) Where: Aldeia Viçosa , Guarda, north-east Portugal",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Feira Medieval de Aldeia Viçosa: April Portugal"
+  },
+  {
+    "name": "Festival dos Descobrimentos: April/May",
+    "dates": "Maio 2026",
+    "location": "Portugal",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "When: May (2026 dates to be confirmed) Where: Lagos , West Algarve",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Festival dos Descobrimentos: April/May Portugal"
+  },
+  {
+    "name": "Festival Pombalino: May",
+    "dates": "Maio 2026",
+    "location": "Portugal",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "When : May (2026 dates to be confirmed) Where : Pombal , Central Portugal",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Festival Pombalino: May Portugal"
+  },
+  {
+    "name": "Marialva Medieval: May",
+    "dates": "Maio 2026",
+    "location": "Portugal",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "When: May (2026 dates to be confirmed) Where: Marialva , north-east Portugal",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Marialva Medieval: May Portugal"
+  },
+  {
+    "name": "Mercado Medieval de Pero Escouche: May",
+    "dates": "Maio 2026",
+    "location": "Portugal",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "When: May (2026 dates to be confirmed) Where: Castelo de Pirescoxe , 15 minutes north of Lisbon",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Mercado Medieval de Pero Escouche: May Portugal"
   },
   {
     "name": "Beltane - Festival Celta de Sintra",
@@ -448,6 +308,16 @@
     "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval Ibérica de Avis Portugal"
+  },
+  {
+    "name": "Feira Medieval Ibérica de Avis: May",
+    "dates": "8 a 10 de Maio 2026",
+    "location": "Portugal",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "When: From the 8th to the 10th of May (2026) Where: Avis, Alentejo 1.5 hours east of Lisbon",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Feira Medieval Ibérica de Avis: May Portugal"
   },
   {
     "name": "Feira Renascentista de Terras de Algodres",
@@ -548,6 +418,26 @@
     "desc": "Ambiente celta-romano.",
     "link": "",
     "maps_query": "Mercado Celta-Romano de Cacia Cacia, Aveiro Portugal"
+  },
+  {
+    "name": "Feira Setecentista: May",
+    "dates": "13 a 17 de Maio 2026",
+    "location": "Portugal",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "When: From the 13th to the 17th of May (2026) Where: Vila Real de Santo Antonio , east Algarve",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Feira Setecentista: May Portugal"
+  },
+  {
+    "name": "Mercado das Alcaçarias Faro: May/June",
+    "dates": "Junho 2026",
+    "location": "Portugal",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "When: May/June (2026 dates to be confirmed) Where: Faro , Algarve",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Mercado das Alcaçarias Faro: May/June Portugal"
   },
   {
     "name": "Campeonato de Arco e Besta Históricos de Ourém",
@@ -680,6 +570,16 @@
     "maps_query": "Mercado Histórico de Lousada Portugal"
   },
   {
+    "name": "Feira Medieval Castelo de Montemor-o-Novo: June",
+    "dates": "12 a 14 de Junho 2026",
+    "location": "Portugal",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "When: From the 12th to the 14th of June (2026) Where: Montemor-o-Novo , 30 minutes east of Lisbon",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Feira Medieval Castelo de Montemor-o-Novo: June Portugal"
+  },
+  {
     "name": "Feira Medieval de Montemor-o-Novo",
     "dates": "12 a 14 de Junho 2026",
     "location": "Castelo de Montemor-o-Novo",
@@ -688,6 +588,36 @@
     "desc": "Jogos e gastronomia no castelo.",
     "link": "",
     "maps_query": "Feira Medieval de Montemor-o-Novo Castelo de Montemor-o-Novo Portugal"
+  },
+  {
+    "name": "Leiria Medieval: July",
+    "dates": "Julho 2026",
+    "location": "Portugal",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "When: July (2026 dates to be confirmed) Where: Leiria , Central Portugal – halfway between Lisbon and Porto",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Leiria Medieval: July Portugal"
+  },
+  {
+    "name": "Mercado Medieval de Óbidos: July",
+    "dates": "Julho 2026",
+    "location": "Portugal",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "When: July (2026 dates to be confirmed) Where: Óbidos , one hour north of Lisbon",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Mercado Medieval de Óbidos: July Portugal"
+  },
+  {
+    "name": "Mercado Medieval de Sintra – July",
+    "dates": "Julho 2026",
+    "location": "Portugal",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "When: July (2026 dates to be confirmed) Where: Sintra",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Mercado Medieval de Sintra – July Portugal"
   },
   {
     "name": "Campeonato de de Arco e Besta Históricos de Alcanede",
@@ -880,6 +810,26 @@
     "maps_query": "Viagem Medieval em Terra de Santa Maria Santa Maria da Feira Portugal"
   },
   {
+    "name": "Viagem Medieval em Terra de Santa Maria: July/August",
+    "dates": "29 de Julho a 9 de Agosto 2026",
+    "location": "Portugal",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "When: From the 29th of July to the 9th of August Where: Santa Maria da Feira , 40 minutes south of Porto",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Viagem Medieval em Terra de Santa Maria: July/August Portugal"
+  },
+  {
+    "name": "Silves Medieval Fair: August",
+    "dates": "Agosto 2026",
+    "location": "Portugal",
+    "month": "Agosto",
+    "region": "Portugal",
+    "desc": "When: August (2026 dates to be confirmed) Where: Silves , Algarve",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Silves Medieval Fair: August Portugal"
+  },
+  {
     "name": "Dias Medievais de Castro Marim",
     "dates": "7 a 15 de Agosto, 2026 Nova",
     "location": "Silves",
@@ -930,6 +880,26 @@
     "maps_query": "Recriação do Cerco de Almeida Portugal"
   },
   {
+    "name": "Aljubarrota Medieval Fair: August",
+    "dates": "14 a 17 de Agosto 2026",
+    "location": "Portugal",
+    "month": "Agosto",
+    "region": "Portugal",
+    "desc": "When: From the 14th to the 17th of August Where: Alcobaça , 90 minutes north of Lisbon",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Aljubarrota Medieval Fair: August Portugal"
+  },
+  {
+    "name": "Feira Medieval de Palmela: September",
+    "dates": "Setembro 2026",
+    "location": "Portugal",
+    "month": "Setembro",
+    "region": "Portugal",
+    "desc": "When: September (2026 dates to be confirmed) Where: Palmela , 30 minutes south of Lisbon",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Feira Medieval de Palmela: September Portugal"
+  },
+  {
     "name": "Alvalade Medieval",
     "dates": "4 a 6 de Setembro, 2026",
     "location": "Campo de Gandara, Cordinhã",
@@ -978,6 +948,26 @@
     "desc": "4 a 6 de Setembro, 2026 | Campo de Gandara, Cordinhã | Wine & History",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Mercado Medieval de Villa Cordiana Portugal"
+  },
+  {
+    "name": "Columbus Festival: September",
+    "dates": "17 a 20 de Setembro 2026",
+    "location": "Portugal",
+    "month": "Setembro",
+    "region": "Portugal",
+    "desc": "When: From the 17th to the 20th of September (2026) Where: Porto Santo, Madeira",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Columbus Festival: September Portugal"
+  },
+  {
+    "name": "Festival Al Mossassa: October",
+    "dates": "Outubro 2026",
+    "location": "Portugal",
+    "month": "Outubro",
+    "region": "Portugal",
+    "desc": "When: October (2026 dates to be confirmed) Where: Marvao , Alentejo",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Festival Al Mossassa: October Portugal"
   },
   {
     "name": "Campeonato de Arco e Besta Históricos de Aljubarrota",
@@ -1060,13 +1050,13 @@
     "maps_query": "V Congresso Da Associação dos Arqueólogos Portugueses Portugal"
   },
   {
-    "name": "Feiras Medievais, Quinhentistas, Renascentista, Recriações de Batalhas, Mercados Romanos, Feiras Setecentistas,Recriações Históricas, etc.",
-    "dates": "Feiras Medievais, Quinhentistas, Renascentista, Recriações de Batalhas, Mercados Romanos, Feiras Setecentistas,Recriações Históricas, etc.",
-    "location": "etc.",
-    "month": "",
+    "name": "Paderne Medieval: January 2027",
+    "dates": "Janeiro 2027",
+    "location": "Portugal",
+    "month": "Janeiro",
     "region": "Portugal",
-    "desc": "Feiras Medievais, Quinhentistas, Renascentista, Recriações de Batalhas, Mercados Romanos, Feiras Setecentistas,Recriações Históricas, etc.",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feiras Medievais, Quinhentistas, Renascentista, Recriações de Batalhas, Mercados Romanos, Feiras Setecentistas,Recriações Históricas, etc. Portugal"
+    "desc": "When: January (2026 dates to be confirmed) Where: Paderne , Algarve",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Paderne Medieval: January 2027 Portugal"
   }
 ]
