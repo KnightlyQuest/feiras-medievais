@@ -365,8 +365,13 @@ def clean_event(event):
         event["location"] = find_location_from_name(event["name"])
 
     if event.get("start_date"):
-        if not event["month"]:
-            event["month"] = month_display_from_iso(event["start_date"])
+        parsed_month = month_display_from_iso(event["start_date"])
+        conf = event.get("date_confidence")
+        # If we have a concrete parsed date, trust it over source-provided month labels.
+        if parsed_month and conf in {"exact_day", "exact_range", "month_only"}:
+            event["month"] = parsed_month
+        elif not event["month"]:
+            event["month"] = parsed_month
         else:
             event["month"] = month_display_from_any(event["month"])
     elif event["month"]:
