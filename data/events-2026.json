@@ -1,15 +1,5 @@
 [
   {
-    "name": "Feira Medieval Casal de São Pedro",
-    "dates": "2026",
-    "location": "São Pedro",
-    "month": "2026",
-    "region": "Portugal",
-    "desc": "Evento do calendário feirasmedievais.pt",
-    "link": "https://feirasmedievais.pt/",
-    "maps_query": "Feira Medieval Casal de São Pedro Portugal"
-  },
-  {
     "name": "Feira Medieval de Castelo Mendo: April",
     "dates": "Abril 2026",
     "location": "Portugal",
@@ -231,83 +221,243 @@
   },
   {
     "name": "Beltane - Festival Celta de Sintra",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
     "month": "Maio",
     "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Beltane - Festival Celta de Sintra Portugal"
   },
   {
     "name": "Braga Romana",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
     "month": "Maio",
     "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Braga Romana Portugal"
   },
   {
     "name": "Campeonato de Arco e Besta Históricos de Óbidos",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
     "month": "Maio",
     "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Campeonato de Arco e Besta Históricos de Óbidos Portugal"
   },
   {
     "name": "Dume Sueva",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
     "month": "Maio",
     "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Dume Sueva Portugal"
   },
   {
     "name": "Feira Medieval de Ansiães",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
     "month": "Maio",
     "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval de Ansiães Portugal"
   },
   {
     "name": "Feira Medieval de Corroios",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
     "month": "Maio",
     "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval de Corroios Portugal"
   },
   {
     "name": "Feira Medieval de Penela",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
     "month": "Maio",
     "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval de Penela Portugal"
   },
   {
-    "name": "Feira Medieval Ibérica de Avis",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
+    "name": "Feira Medieval de Seixo de Gatões",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
     "month": "Maio",
     "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de Seixo de Gatões Portugal"
+  },
+  {
+    "name": "Feira Medieval Ibérica de Avis",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval Ibérica de Avis Portugal"
+  },
+  {
+    "name": "Feira Renascentista de Terras de Algodres",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Renascentista de Terras de Algodres Portugal"
+  },
+  {
+    "name": "Festa Medieval Torres, Vilarinho do Bairro",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Festa Medieval Torres, Vilarinho do Bairro Portugal"
+  },
+  {
+    "name": "Festival Histórico Setecentista de V. R. Santo António",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Festival Histórico Setecentista de V. R. Santo António Portugal"
+  },
+  {
+    "name": "Levada, Festival de Dança e Música Histórica",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Levada, Festival de Dança e Música Histórica Portugal"
+  },
+  {
+    "name": "Marialva Medieval",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Marialva Medieval Portugal"
+  },
+  {
+    "name": "Mercado Celta Romano de Cacia",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Celta Romano de Cacia Portugal"
+  },
+  {
+    "name": "Mercado do Queijo e dos Romanos do Rabaçal",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado do Queijo e dos Romanos do Rabaçal Portugal"
+  },
+  {
+    "name": "Mercado Medieval de Eiras, Coimbra",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Medieval de Eiras, Coimbra Portugal"
+  },
+  {
+    "name": "Mercado Medieval de Leça da Palmeira",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Medieval de Leça da Palmeira Portugal"
+  },
+  {
+    "name": "Mercado Oitecentista de Sapataria",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Oitecentista de Sapataria Portugal"
+  },
+  {
+    "name": "Mercado Quinhentista de Carapito",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Quinhentista de Carapito Portugal"
+  },
+  {
+    "name": "Santa Marinha Vila Medieval",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Santa Marinha Vila Medieval Portugal"
+  },
+  {
+    "name": "Torneio de Combate Medieval de Pero Escouche",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Torneio de Combate Medieval de Pero Escouche Portugal"
+  },
+  {
+    "name": "Torneio Medieval de Carrazeda de Ansiães",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Torneio Medieval de Carrazeda de Ansiães Portugal"
+  },
+  {
+    "name": "Vale Benfeito Medieval",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Vale Benfeito Medieval Portugal"
   },
   {
     "name": "Feira Medieval Ibérica de Avis: May",
@@ -318,96 +468,6 @@
     "desc": "When: From the 8th to the 10th of May (2026) Where: Avis, Alentejo 1.5 hours east of Lisbon",
     "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
     "maps_query": "Feira Medieval Ibérica de Avis: May Portugal"
-  },
-  {
-    "name": "Feira Renascentista de Terras de Algodres",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Maio",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Feira Renascentista de Terras de Algodres Portugal"
-  },
-  {
-    "name": "Festival Histórico Setecentista de V. R. Santo António",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Maio",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Festival Histórico Setecentista de V. R. Santo António Portugal"
-  },
-  {
-    "name": "Levada, Festival de Dança e Música Histórica",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Maio",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Levada, Festival de Dança e Música Histórica Portugal"
-  },
-  {
-    "name": "Marialva Medieval",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Maio",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Marialva Medieval Portugal"
-  },
-  {
-    "name": "Mercado Celta Romano de Cacia",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Maio",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Celta Romano de Cacia Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Leça da Palmeira",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Maio",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Medieval de Leça da Palmeira Portugal"
-  },
-  {
-    "name": "Mercado Oitecentista de Sapataria",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Maio",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Oitecentista de Sapataria Portugal"
-  },
-  {
-    "name": "Mercado Quinhentista de Carapito",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Maio",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Mercado Quinhentista de Carapito Portugal"
-  },
-  {
-    "name": "Torneio Medieval de Carrazeda de Ansiães",
-    "dates": "8 a 10 de Maio, 2026",
-    "location": "Avis",
-    "month": "Maio",
-    "region": "Portugal",
-    "desc": "8 a 10 de Maio, 2026 | Avis | IV Torneio de Ansiães",
-    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
-    "maps_query": "Torneio Medieval de Carrazeda de Ansiães Portugal"
   },
   {
     "name": "Mercado Celta-Romano de Cacia",
@@ -478,6 +538,16 @@
     "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Afonsina de Guimarães Portugal"
+  },
+  {
+    "name": "Feira Medieval Casal de São Pedro",
+    "dates": "4 a 10 de Junho, 2026",
+    "location": "Colmeal da Torre, Belmonte",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval Casal de São Pedro Portugal"
   },
   {
     "name": "Feira Medieval Castelo de Montemor-o-Novo",
@@ -668,6 +738,16 @@
     "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval de Mões Portugal"
+  },
+  {
+    "name": "Feira Medieval de Penedono",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Lagoa",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Lagoa | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de Penedono Portugal"
   },
   {
     "name": "Feira Medieval de Serra D'el Rei",
@@ -908,6 +988,16 @@
     "desc": "4 a 6 de Setembro, 2026 | Campo de Gandara, Cordinhã | Wine & History",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Alvalade Medieval Portugal"
+  },
+  {
+    "name": "Ceyceyra Medieval",
+    "dates": "4 a 6 de Setembro, 2026",
+    "location": "Campo de Gandara, Cordinhã",
+    "month": "Setembro",
+    "region": "Portugal",
+    "desc": "4 a 6 de Setembro, 2026 | Campo de Gandara, Cordinhã | Wine & History",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Ceyceyra Medieval Portugal"
   },
   {
     "name": "Feira Medieval de Marvila",
