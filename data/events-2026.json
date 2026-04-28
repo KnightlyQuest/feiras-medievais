@@ -180,6 +180,16 @@
     "maps_query": "Feira Medieval de Aldeia Viçosa: April Portugal"
   },
   {
+    "name": "Feira Medieval de Benfica, Lisboa",
+    "dates": "30 de Abril a 3 de Maio, 2026 Nova",
+    "location": "Mata de Benfica,Benfica,Lisboa",
+    "month": "Abril",
+    "region": "Portugal",
+    "desc": "30 de Abril a 3 de Maio, 2026 Nova | Mata de Benfica,Benfica,Lisboa | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de Benfica, Lisboa Portugal"
+  },
+  {
     "name": "Festival dos Descobrimentos: April/May",
     "dates": "Maio 2026",
     "location": "Portugal",
@@ -218,6 +228,16 @@
     "desc": "When: May (2026 dates to be confirmed) Where: Castelo de Pirescoxe , 15 minutes north of Lisbon",
     "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
     "maps_query": "Mercado Medieval de Pero Escouche: May Portugal"
+  },
+  {
+    "name": "Beja Romana",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Beja Romana Portugal"
   },
   {
     "name": "Beltane - Festival Celta de Sintra",
@@ -260,6 +280,16 @@
     "maps_query": "Dume Sueva Portugal"
   },
   {
+    "name": "Feira Medieval da Portela",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval da Portela Portugal"
+  },
+  {
     "name": "Feira Medieval de Ansiães",
     "dates": "2 a 4 de Maio, 2026 Nova",
     "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
@@ -278,6 +308,16 @@
     "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval de Corroios Portugal"
+  },
+  {
+    "name": "Feira Medieval de Odivelas",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de Odivelas Portugal"
   },
   {
     "name": "Feira Medieval de Penela",
@@ -320,6 +360,16 @@
     "maps_query": "Feira Renascentista de Terras de Algodres Portugal"
   },
   {
+    "name": "Feira Rural de Porto Salvo",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Rural de Porto Salvo Portugal"
+  },
+  {
     "name": "Festa Medieval Torres, Vilarinho do Bairro",
     "dates": "2 a 4 de Maio, 2026 Nova",
     "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
@@ -358,6 +408,26 @@
     "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Marialva Medieval Portugal"
+  },
+  {
+    "name": "Mercado à Moda Antiga de Oliveira de Azeméis",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado à Moda Antiga de Oliveira de Azeméis Portugal"
+  },
+  {
+    "name": "Mercado Á Moda Antiga, Pinhal Novo",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Á Moda Antiga, Pinhal Novo Portugal"
   },
   {
     "name": "Mercado Celta Romano de Cacia",
@@ -460,6 +530,16 @@
     "maps_query": "Vale Benfeito Medieval Portugal"
   },
   {
+    "name": "Valongo Romano",
+    "dates": "2 a 4 de Maio, 2026 Nova",
+    "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "2 a 4 de Maio, 2026 Nova | Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Valongo Romano Portugal"
+  },
+  {
     "name": "Feira Medieval Ibérica de Avis: May",
     "dates": "8 a 10 de Maio 2026",
     "location": "Portugal",
@@ -550,6 +630,16 @@
     "maps_query": "Feira Medieval Casal de São Pedro Portugal"
   },
   {
+    "name": "Feira Medieval Casal de São Pedro, Dois Portos",
+    "dates": "4 a 7 de Junho, 2026 Nova",
+    "location": "Vilar de Andorinho,Vila Nova de Gaia",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 7 de Junho, 2026 Nova | Vilar de Andorinho,Vila Nova de Gaia | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval Casal de São Pedro, Dois Portos Portugal"
+  },
+  {
     "name": "Feira Medieval Castelo de Montemor-o-Novo",
     "dates": "4 a 10 de Junho, 2026",
     "location": "Colmeal da Torre, Belmonte",
@@ -570,6 +660,16 @@
     "maps_query": "Feira Medieval de Alhos Vedros Portugal"
   },
   {
+    "name": "Feira Medieval de Lamego",
+    "dates": "4 a 7 de Junho, 2026 Nova",
+    "location": "Vilar de Andorinho,Vila Nova de Gaia",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 7 de Junho, 2026 Nova | Vilar de Andorinho,Vila Nova de Gaia | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de Lamego Portugal"
+  },
+  {
     "name": "Feira Medieval de Lobelhe do Mato",
     "dates": "4 a 10 de Junho, 2026",
     "location": "Colmeal da Torre, Belmonte",
@@ -588,6 +688,26 @@
     "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval de Pinhel Portugal"
+  },
+  {
+    "name": "Feira Medieval de São João de Lobrigos",
+    "dates": "4 a 7 de Junho, 2026 Nova",
+    "location": "Vilar de Andorinho,Vila Nova de Gaia",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 7 de Junho, 2026 Nova | Vilar de Andorinho,Vila Nova de Gaia | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de São João de Lobrigos Portugal"
+  },
+  {
+    "name": "Feira Medieval de Trancoso",
+    "dates": "4 a 7 de Junho, 2026 Nova",
+    "location": "Vilar de Andorinho,Vila Nova de Gaia",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 7 de Junho, 2026 Nova | Vilar de Andorinho,Vila Nova de Gaia | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de Trancoso Portugal"
   },
   {
     "name": "Feira Medieval de Vilar de Andorinho",
@@ -710,6 +830,16 @@
     "maps_query": "Feira Medieval da Encoberta Portugal"
   },
   {
+    "name": "Feira Medieval das Avenidas Novas",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Lagoa",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Lagoa | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval das Avenidas Novas Portugal"
+  },
+  {
     "name": "Feira Medieval de Canha",
     "dates": "2 a 5 de Julho, 2026 Nova",
     "location": "Elvas",
@@ -778,6 +908,16 @@
     "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Oitecentista do Vimeiro Portugal"
+  },
+  {
+    "name": "Feira Quinhentista da Ribeira Grande",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Lagoa",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Lagoa | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Quinhentista da Ribeira Grande Portugal"
   },
   {
     "name": "Festival Medieval de Elvas",
@@ -908,6 +1048,16 @@
     "desc": "When: August (2026 dates to be confirmed) Where: Silves , Algarve",
     "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
     "maps_query": "Silves Medieval Fair: August Portugal"
+  },
+  {
+    "name": "Aljubarrota Medieval",
+    "dates": "7 a 15 de Agosto, 2026 Nova",
+    "location": "Silves",
+    "month": "Agosto",
+    "region": "Portugal",
+    "desc": "7 a 15 de Agosto, 2026 Nova | Silves | Era Viking",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Aljubarrota Medieval Portugal"
   },
   {
     "name": "Dias Medievais de Castro Marim",
