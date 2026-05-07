@@ -540,6 +540,36 @@
     "maps_query": "Valongo Romano Portugal"
   },
   {
+    "name": "Foral da Vila da Bemposta",
+    "dates": "7 a 10 de Maio, 2026 Nova",
+    "location": "Jardim Almeida Garrett,Portela,Loures",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "7 a 10 de Maio, 2026 Nova | Jardim Almeida Garrett,Portela,Loures | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Foral da Vila da Bemposta Portugal"
+  },
+  {
+    "name": "Mercado Quinhentista de Campo",
+    "dates": "7 a 10 de Maio, 2026 Nova",
+    "location": "Jardim Almeida Garrett,Portela,Loures",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "7 a 10 de Maio, 2026 Nova | Jardim Almeida Garrett,Portela,Loures | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Quinhentista de Campo Portugal"
+  },
+  {
+    "name": "Origem Templária Soure 1111",
+    "dates": "7 a 10 de Maio, 2026 Nova",
+    "location": "Jardim Almeida Garrett,Portela,Loures",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "7 a 10 de Maio, 2026 Nova | Jardim Almeida Garrett,Portela,Loures | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Origem Templária Soure 1111 Portugal"
+  },
+  {
     "name": "Feira Medieval Ibérica de Avis: May",
     "dates": "8 a 10 de Maio 2026",
     "location": "Portugal",
@@ -700,6 +730,16 @@
     "maps_query": "Feira Medieval de São João de Lobrigos Portugal"
   },
   {
+    "name": "Feira Medieval de Seide",
+    "dates": "4 a 10 de Junho, 2026",
+    "location": "Colmeal da Torre, Belmonte",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de Seide Portugal"
+  },
+  {
     "name": "Feira Medieval de Trancoso",
     "dates": "4 a 7 de Junho, 2026 Nova",
     "location": "Vilar de Andorinho,Vila Nova de Gaia",
@@ -758,6 +798,26 @@
     "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Mercado Histórico de Lousada Portugal"
+  },
+  {
+    "name": "Mercado Medieval de Vila Franca de Xira",
+    "dates": "4 a 10 de Junho, 2026",
+    "location": "Colmeal da Torre, Belmonte",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Medieval de Vila Franca de Xira Portugal"
+  },
+  {
+    "name": "Torrão Quinhentista, Alcácer do Sal",
+    "dates": "4 a 10 de Junho, 2026",
+    "location": "Colmeal da Torre, Belmonte",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Torrão Quinhentista, Alcácer do Sal Portugal"
   },
   {
     "name": "Feira Medieval Castelo de Montemor-o-Novo: June",
@@ -898,6 +958,16 @@
     "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval de Sintra Portugal"
+  },
+  {
+    "name": "Feira Medieval do Mindelo",
+    "dates": "2 a 5 de Julho, 2026 Nova",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval do Mindelo Portugal"
   },
   {
     "name": "Feira Oitecentista do Vimeiro",
