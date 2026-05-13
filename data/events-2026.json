@@ -200,6 +200,16 @@
     "maps_query": "Festival dos Descobrimentos: April/May Portugal"
   },
   {
+    "name": "Festival dos Descobrimentos: May",
+    "dates": "Maio 2026",
+    "location": "Portugal",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "When: Being skipped for May 2026, will return in 2027 Where: Lagos , West Algarve",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Festival dos Descobrimentos: May Portugal"
+  },
+  {
     "name": "Festival Pombalino: May",
     "dates": "Maio 2026",
     "location": "Portugal",
@@ -208,26 +218,6 @@
     "desc": "When : May (2026 dates to be confirmed) Where : Pombal , Central Portugal",
     "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
     "maps_query": "Festival Pombalino: May Portugal"
-  },
-  {
-    "name": "Marialva Medieval: May",
-    "dates": "Maio 2026",
-    "location": "Portugal",
-    "month": "Maio",
-    "region": "Portugal",
-    "desc": "When: May (2026 dates to be confirmed) Where: Marialva , north-east Portugal",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Marialva Medieval: May Portugal"
-  },
-  {
-    "name": "Mercado Medieval de Pero Escouche: May",
-    "dates": "Maio 2026",
-    "location": "Portugal",
-    "month": "Maio",
-    "region": "Portugal",
-    "desc": "When: May (2026 dates to be confirmed) Where: Castelo de Pirescoxe , 15 minutes north of Lisbon",
-    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Mercado Medieval de Pero Escouche: May Portugal"
   },
   {
     "name": "Beja Romana",
@@ -470,6 +460,16 @@
     "maps_query": "Mercado Medieval de Leça da Palmeira Portugal"
   },
   {
+    "name": "Mercado Medieval de Pero Escouche: May",
+    "dates": "2 de Maio 2026",
+    "location": "Portugal",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "When: May 2nd May 3rd 2026 Where: Castelo de Pirescoxe , 15 minutes north of Lisbon",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Mercado Medieval de Pero Escouche: May Portugal"
+  },
+  {
     "name": "Mercado Oitecentista de Sapataria",
     "dates": "2 a 4 de Maio, 2026 Nova",
     "location": "Estação Arqueológica da Villa Romana do Rabaçal,Rabaçal,Penela",
@@ -598,6 +598,36 @@
     "desc": "When: From the 13th to the 17th of May (2026) Where: Vila Real de Santo Antonio , east Algarve",
     "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
     "maps_query": "Feira Setecentista: May Portugal"
+  },
+  {
+    "name": "Feira Medieval de S. Paio de Figueiredo",
+    "dates": "14 a 17 de Maio, 2026",
+    "location": "Corroios,Seixal",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "14 a 17 de Maio, 2026 | Corroios,Seixal | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de S. Paio de Figueiredo Portugal"
+  },
+  {
+    "name": "Redondo Medieval",
+    "dates": "14 a 17 de Maio, 2026",
+    "location": "Corroios,Seixal",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "14 a 17 de Maio, 2026 | Corroios,Seixal | De Celas a Eiras: Caminhos de Memória",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Redondo Medieval Portugal"
+  },
+  {
+    "name": "Marialva Medieval: May",
+    "dates": "15 de Maio 2026",
+    "location": "Portugal",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "When: May 15th to May 17th 2026 Where: Marialva , north-east Portugal",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Marialva Medieval: May Portugal"
   },
   {
     "name": "Mercado das Alcaçarias Faro: May/June",
@@ -770,6 +800,16 @@
     "maps_query": "Feira Medieval do Beato Portugal"
   },
   {
+    "name": "Feira Medieval do Carvalhal",
+    "dates": "4 a 7 de Junho, 2026 Nova",
+    "location": "Vilar de Andorinho,Vila Nova de Gaia",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 7 de Junho, 2026 Nova | Vilar de Andorinho,Vila Nova de Gaia | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval do Carvalhal Portugal"
+  },
+  {
     "name": "Feira Quinhentista de Aldeia Galega",
     "dates": "4 a 10 de Junho, 2026",
     "location": "Colmeal da Torre, Belmonte",
@@ -778,6 +818,16 @@
     "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Quinhentista de Aldeia Galega Portugal"
+  },
+  {
+    "name": "Festas Quinhentistas da Esgueira",
+    "dates": "4 a 7 de Junho, 2026 Nova",
+    "location": "Vilar de Andorinho,Vila Nova de Gaia",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 7 de Junho, 2026 Nova | Vilar de Andorinho,Vila Nova de Gaia | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Festas Quinhentistas da Esgueira Portugal"
   },
   {
     "name": "Grande Troféu Ibérico, Óbidos 2026",
@@ -810,6 +860,16 @@
     "maps_query": "Mercado Medieval de Vila Franca de Xira Portugal"
   },
   {
+    "name": "Moalde Medieval de São Mamede Infesta",
+    "dates": "4 a 7 de Junho, 2026 Nova",
+    "location": "Vilar de Andorinho,Vila Nova de Gaia",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 7 de Junho, 2026 Nova | Vilar de Andorinho,Vila Nova de Gaia | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Moalde Medieval de São Mamede Infesta Portugal"
+  },
+  {
     "name": "Torrão Quinhentista, Alcácer do Sal",
     "dates": "4 a 10 de Junho, 2026",
     "location": "Colmeal da Torre, Belmonte",
@@ -840,14 +900,14 @@
     "maps_query": "Feira Medieval de Montemor-o-Novo Castelo de Montemor-o-Novo Portugal"
   },
   {
-    "name": "Leiria Medieval: July",
-    "dates": "Julho 2026",
+    "name": "Lamego Medieval Fair",
+    "dates": "12 de Junho 2026",
     "location": "Portugal",
-    "month": "Julho",
+    "month": "Junho",
     "region": "Portugal",
-    "desc": "When: July (2026 dates to be confirmed) Where: Leiria , Central Portugal – halfway between Lisbon and Porto",
+    "desc": "When: June 12th to June 14th 2026 Where: Lamego , North Portugal",
     "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
-    "maps_query": "Leiria Medieval: July Portugal"
+    "maps_query": "Lamego Medieval Fair Portugal"
   },
   {
     "name": "Mercado Medieval de Óbidos: July",
@@ -1000,6 +1060,16 @@
     "maps_query": "Festival Medieval de Elvas Portugal"
   },
   {
+    "name": "Festival Pirata de Leça da Palmeira",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Lagoa",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Lagoa | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Festival Pirata de Leça da Palmeira Portugal"
+  },
+  {
     "name": "Galaicofolia",
     "dates": "2 a 5 de Julho, 2026 Nova",
     "location": "Elvas",
@@ -1088,6 +1158,16 @@
     "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Viagem Medieval em Terras de Santa Maria da Feira Portugal"
+  },
+  {
+    "name": "Leiria Medieval: July",
+    "dates": "17 de Julho 2026",
+    "location": "Portugal",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "When: July 17th to July 19th 2026 Where: Leiria , Central Portugal – halfway between Lisbon and Porto",
+    "link": "https://wetravelportugal.com/medieval-fairs-portugal/",
+    "maps_query": "Leiria Medieval: July Portugal"
   },
   {
     "name": "Viagem Medieval em Terra de Santa Maria",
