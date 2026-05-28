@@ -650,6 +650,16 @@
     "maps_query": "Recriação Histórica Medieval, no Castelo de Leiria Portugal"
   },
   {
+    "name": "Santa Marinha Vila Medieval • Seia",
+    "dates": "29 a 31 de Maio, 2026",
+    "location": "Redondo",
+    "month": "Maio",
+    "region": "Portugal",
+    "desc": "29 a 31 de Maio, 2026 | Redondo | Nas Cortes de D. Dinis",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Santa Marinha Vila Medieval • Seia Portugal"
+  },
+  {
     "name": "Mercado das Alcaçarias Faro: May/June",
     "dates": "Junho 2026",
     "location": "Portugal",
@@ -900,6 +910,16 @@
     "maps_query": "Mercado Medieval de Vila Franca de Xira Portugal"
   },
   {
+    "name": "Mercado Quinhentista Machico",
+    "dates": "4 a 10 de Junho, 2026",
+    "location": "Colmeal da Torre, Belmonte",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Quinhentista Machico Portugal"
+  },
+  {
     "name": "Moalde Medieval de São Mamede Infesta",
     "dates": "4 a 7 de Junho, 2026 Nova",
     "location": "Vilar de Andorinho,Vila Nova de Gaia",
@@ -908,6 +928,16 @@
     "desc": "4 a 7 de Junho, 2026 Nova | Vilar de Andorinho,Vila Nova de Gaia | Torre de Centum Cellas",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Moalde Medieval de São Mamede Infesta Portugal"
+  },
+  {
+    "name": "Sanfins Medieval",
+    "dates": "4 a 10 de Junho, 2026",
+    "location": "Colmeal da Torre, Belmonte",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Sanfins Medieval Portugal"
   },
   {
     "name": "Torrão Quinhentista, Alcácer do Sal",
@@ -1200,6 +1230,16 @@
     "maps_query": "Mercado Medieval de Óbidos Portugal"
   },
   {
+    "name": "O Recontro de Valdevez",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "O Recontro de Valdevez Portugal"
+  },
+  {
     "name": "Recriação da Batalha do Vimeiro 1808",
     "dates": "2 a 5 de Julho, 2026 Nova",
     "location": "Elvas",
@@ -1208,6 +1248,16 @@
     "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Recriação da Batalha do Vimeiro 1808 Portugal"
+  },
+  {
+    "name": "Salir do Tempo",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Salir do Tempo Portugal"
   },
   {
     "name": "Viagem Medieval em Terras de Santa Maria da Feira",
