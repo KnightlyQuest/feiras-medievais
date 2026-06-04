@@ -670,6 +670,16 @@
     "maps_query": "Mercado das Alcaçarias Faro: May/June Portugal"
   },
   {
+    "name": "À Noite na Fortaleza de Peniche",
+    "dates": "4 a 10 de Junho, 2026",
+    "location": "Colmeal da Torre, Belmonte",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "À Noite na Fortaleza de Peniche Portugal"
+  },
+  {
     "name": "Campeonato de Arco e Besta Históricos de Ourém",
     "dates": "4 a 10 de Junho, 2026",
     "location": "Colmeal da Torre, Belmonte",
@@ -760,6 +770,16 @@
     "maps_query": "Feira Medieval de Alhos Vedros Portugal"
   },
   {
+    "name": "Feira Medieval de Cavez",
+    "dates": "4 a 10 de Junho, 2026",
+    "location": "Colmeal da Torre, Belmonte",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de Cavez Portugal"
+  },
+  {
     "name": "Feira Medieval de Lamego",
     "dates": "4 a 7 de Junho, 2026 Nova",
     "location": "Vilar de Andorinho,Vila Nova de Gaia",
@@ -778,6 +798,16 @@
     "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval de Lobelhe do Mato Portugal"
+  },
+  {
+    "name": "Feira Medieval de Mem Martins",
+    "dates": "4 a 10 de Junho, 2026",
+    "location": "Colmeal da Torre, Belmonte",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "4 a 10 de Junho, 2026 | Colmeal da Torre, Belmonte | Torre de Centum Cellas",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de Mem Martins Portugal"
   },
   {
     "name": "Feira Medieval de Pinhel",
@@ -1000,6 +1030,26 @@
     "maps_query": "Mercado Medieval de Sintra – July Portugal"
   },
   {
+    "name": "4º Encontro de Espadários, Castelo de Palmela",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "4º Encontro de Espadários, Castelo de Palmela Portugal"
+  },
+  {
+    "name": "Batalha de Castelo Rodrigo",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Batalha de Castelo Rodrigo Portugal"
+  },
+  {
     "name": "Campeonato de de Arco e Besta Históricos de Alcanede",
     "dates": "2 a 5 de Julho, 2026 Nova",
     "location": "Elvas",
@@ -1008,6 +1058,16 @@
     "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Campeonato de de Arco e Besta Históricos de Alcanede Portugal"
+  },
+  {
+    "name": "Encontros com a História • Canha",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Encontros com a História • Canha Portugal"
   },
   {
     "name": "Feira Medieval da Encoberta",
@@ -1118,6 +1178,16 @@
     "desc": "2 a 5 de Julho, 2026 | Lagoa | Mostra da Culturalidade Lusófona",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Quinhentista da Ribeira Grande Portugal"
+  },
+  {
+    "name": "Festa Templária de Tomar",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Festa Templária de Tomar Portugal"
   },
   {
     "name": "Festival Medieval de Elvas",
@@ -1338,6 +1408,16 @@
     "desc": "7 a 15 de Agosto, 2026 Nova | Silves | Era Viking",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval de Silves Portugal"
+  },
+  {
+    "name": "Festa da História de Bragança",
+    "dates": "7 a 15 de Agosto, 2026",
+    "location": "Silves",
+    "month": "Agosto",
+    "region": "Portugal",
+    "desc": "7 a 15 de Agosto, 2026 | Silves | Era Viking",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Festa da História de Bragança Portugal"
   },
   {
     "name": "Festa da História de V. N. de Cerveira",
