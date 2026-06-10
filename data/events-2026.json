@@ -980,6 +980,16 @@
     "maps_query": "Torrão Quinhentista, Alcácer do Sal Portugal"
   },
   {
+    "name": "Feira Medieval de Belver",
+    "dates": "10 a 14 de Junho, 2026",
+    "location": "Alhos Vedros, Moita",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "10 a 14 de Junho, 2026 | Alhos Vedros, Moita | 550 anos da Batalha de Toro",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de Belver Portugal"
+  },
+  {
     "name": "Feira Medieval Castelo de Montemor-o-Novo: June",
     "dates": "12 a 14 de Junho 2026",
     "location": "Portugal",
@@ -1208,6 +1218,16 @@
     "desc": "2 a 5 de Julho, 2026 | Lagoa | Mostra da Culturalidade Lusófona",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Festival Pirata de Leça da Palmeira Portugal"
+  },
+  {
+    "name": "Folgança Galaico-Romana",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Folgança Galaico-Romana Portugal"
   },
   {
     "name": "Galaicofolia",
