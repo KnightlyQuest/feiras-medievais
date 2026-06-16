@@ -1020,6 +1020,16 @@
     "maps_query": "Lamego Medieval Fair Portugal"
   },
   {
+    "name": "Barcelos Medieval",
+    "dates": "18 a 21 de Junho, 2026 Nova",
+    "location": "Barcelos",
+    "month": "Junho",
+    "region": "Portugal",
+    "desc": "18 a 21 de Junho, 2026 Nova | Barcelos | O Foral de D. Sancho I",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Barcelos Medieval Portugal"
+  },
+  {
     "name": "Mercado Medieval de Óbidos: July",
     "dates": "Julho 2026",
     "location": "Portugal",
@@ -1188,6 +1198,16 @@
     "desc": "2 a 5 de Julho, 2026 | Lagoa | Mostra da Culturalidade Lusófona",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Quinhentista da Ribeira Grande Portugal"
+  },
+  {
+    "name": "Feira Quinhentista de Abiul",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Lagoa",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Lagoa | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Quinhentista de Abiul Portugal"
   },
   {
     "name": "Festa Templária de Tomar",
