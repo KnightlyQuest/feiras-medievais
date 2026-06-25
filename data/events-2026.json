@@ -1070,6 +1070,16 @@
     "maps_query": "Batalha de Castelo Rodrigo Portugal"
   },
   {
+    "name": "Caminha Medieval",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Caminha Medieval Portugal"
+  },
+  {
     "name": "Campeonato de de Arco e Besta Históricos de Alcanede",
     "dates": "2 a 5 de Julho, 2026 Nova",
     "location": "Elvas",
@@ -1138,6 +1148,16 @@
     "desc": "2 a 5 de Julho, 2026 Nova | Elvas | Mostra da Culturalidade Lusófona",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Feira Medieval de Mões Portugal"
+  },
+  {
+    "name": "Feira Medieval de Paços de Ferreira",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Medieval de Paços de Ferreira Portugal"
   },
   {
     "name": "Feira Medieval de Penedono",
@@ -1300,6 +1320,26 @@
     "maps_query": "Mercado de Culturas ...À Luz das Velas Portugal"
   },
   {
+    "name": "Mercado Galaico-Romano no Castro de Curalha",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Galaico-Romano no Castro de Curalha Portugal"
+  },
+  {
+    "name": "Mercado Medieval de Alfena",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Medieval de Alfena Portugal"
+  },
+  {
     "name": "Mercado Medieval de Anadia",
     "dates": "2 a 5 de Julho, 2026",
     "location": "Lagoa",
@@ -1308,6 +1348,16 @@
     "desc": "2 a 5 de Julho, 2026 | Lagoa | Mostra da Culturalidade Lusófona",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Mercado Medieval de Anadia Portugal"
+  },
+  {
+    "name": "Mercado Medieval de Argüeso (Cantabria)",
+    "dates": "2 a 5 de Julho, 2026",
+    "location": "Elvas",
+    "month": "Julho",
+    "region": "Portugal",
+    "desc": "2 a 5 de Julho, 2026 | Elvas | Mostra da Culturalidade Lusófona",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Mercado Medieval de Argüeso (Cantabria) Portugal"
   },
   {
     "name": "Mercado Medieval de Azambuja",
@@ -1430,6 +1480,16 @@
     "maps_query": "Aljubarrota Medieval Portugal"
   },
   {
+    "name": "Bemposta Manuelina",
+    "dates": "7 a 15 de Agosto, 2026",
+    "location": "Silves",
+    "month": "Agosto",
+    "region": "Portugal",
+    "desc": "7 a 15 de Agosto, 2026 | Silves | Era Viking",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Bemposta Manuelina Portugal"
+  },
+  {
     "name": "Dias Medievais de Castro Marim",
     "dates": "7 a 15 de Agosto, 2026 Nova",
     "location": "Silves",
@@ -1538,6 +1598,16 @@
     "desc": "4 a 6 de Setembro, 2026 | Campo de Gandara, Cordinhã | Wine & History",
     "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
     "maps_query": "Ceyceyra Medieval Portugal"
+  },
+  {
+    "name": "Feira Celta e Medieval do Troviscal",
+    "dates": "4 a 6 de Setembro, 2026",
+    "location": "Praça do Marquês, São João da Pesqueira",
+    "month": "Setembro",
+    "region": "Portugal",
+    "desc": "4 a 6 de Setembro, 2026 | Praça do Marquês, São João da Pesqueira | Wine & History",
+    "link": "https://feirasmedievais.pt/calendario-feiras-medievais-portugal-2024/",
+    "maps_query": "Feira Celta e Medieval do Troviscal Portugal"
   },
   {
     "name": "Feira Medieval de Marvila",
